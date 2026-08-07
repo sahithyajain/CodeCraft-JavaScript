@@ -42,7 +42,7 @@ Each topic in this repository includes:
 - [ ] Loops
 - [ ] Functions
 
----
+
 
 ## 📦 Intermediate JavaScript
 
@@ -55,7 +55,7 @@ Each topic in this repository includes:
 - [ ] Callbacks
 - [ ] Higher Order Functions
 
----
+
 
 ## ⚡ Modern JavaScript (ES6+)
 
@@ -66,7 +66,7 @@ Each topic in this repository includes:
 - [ ] Rest Operator
 - [ ] Modules
 
----
+
 
 ## 🌐 Asynchronous JavaScript
 
