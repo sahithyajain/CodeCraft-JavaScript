@@ -181,12 +181,14 @@ let firstName = "Sahithya";
 
 # 🎤 Interview Questions
 
-1. What is a variable?
+1. What is a variable?   
 2. Why do we use variables?
 3. What is the difference between `let` and `const`?
 4. What is `var`?
 5. Which is preferred in modern JavaScript?
 6. What are the rules for naming variables?
+
+   
 
 ---
 
