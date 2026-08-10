@@ -31,7 +31,9 @@ console.log(name);
 
 // Output: Hitha
 
-// Important: This is NOT an error because var allows redeclaration.
+// Important: var allows the same variable to be declared again.
+
+
 
 
 
@@ -64,18 +66,17 @@ console.log(score);
 // Error Program
 //-----------------------
 
-let marks = 90;
+let age = 22;
+let age = 23;
+console.log(age);
 
-// marks = 100;   // ❌ Error if uncommented? No!
-// Actually, reassignment is allowed with let.
+// Error: SyntaxError: Identifier 'age' has already been declared
 
-console.log(marks);
+// let cannot be declared again in the same scope.
 
-// Output:
-// 90
 
-// Important:
-// let CAN be reassigned, so this is not an error.
+
+
 // --------------------------------
 // 5. CONST - Program 1
 // ----------------------------------
@@ -98,3 +99,15 @@ console.log(language);
 // Output: JavaScript
 
 // How it works: const stores a value that should not be reassigned.
+
+//--------------------------
+//error
+//----------------------------
+
+const country = "India";
+country = "USA";
+console.log(country);
+
+// Error: TypeError: Assignment to constant variable.
+
+// const does not allow its value to be reassigned.
