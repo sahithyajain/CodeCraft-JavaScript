@@ -1,5 +1,6 @@
+//-------------------------
 // 1. VAR - Program 1
-
+//-------------------------
 
 var city = "Bangalore";
 console.log(city);
@@ -20,6 +21,7 @@ console.log(number);
 // Output: 20
 
 // How it works: var allows the value of a variable to be changed.
+
 
 //----------------------
 // Error Program
@@ -77,6 +79,7 @@ console.log(age);
 
 
 
+
 // --------------------------------
 // 5. CONST - Program 1
 // ----------------------------------
@@ -99,6 +102,7 @@ console.log(language);
 // Output: JavaScript
 
 // How it works: const stores a value that should not be reassigned.
+
 
 //--------------------------
 //error
