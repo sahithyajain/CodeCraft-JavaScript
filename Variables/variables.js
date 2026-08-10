@@ -21,6 +21,19 @@ console.log(number);
 
 // How it works: var allows the value of a variable to be changed.
 
+//----------------------
+// Error Program
+//------------------------
+
+var name = "Sahithya";
+var name = "Hitha";
+console.log(name);
+
+// Output: Hitha
+
+// Important: This is NOT an error because var allows redeclaration.
+
+
 
 // -----------------------------
 // 3. LET - Program 1
@@ -47,6 +60,22 @@ console.log(score);
 // How it works: let allows us to change the value stored in the variable.
 
 
+//-----------------------
+// Error Program
+//-----------------------
+
+let marks = 90;
+
+// marks = 100;   // ❌ Error if uncommented? No!
+// Actually, reassignment is allowed with let.
+
+console.log(marks);
+
+// Output:
+// 90
+
+// Important:
+// let CAN be reassigned, so this is not an error.
 // --------------------------------
 // 5. CONST - Program 1
 // ----------------------------------
