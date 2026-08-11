@@ -110,3 +110,4 @@ number
 **Null → Intentionally empty**  
 **Object → Related data**  
 **Array → List of values**
+** `typeof` → Checks the data type**
