@@ -110,4 +110,3 @@ number
 **Null → Intentionally empty**  
 **Object → Related data**  
 **Array → List of values**
-
