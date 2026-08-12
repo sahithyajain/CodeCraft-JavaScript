@@ -5,7 +5,6 @@
 A data type tells us **what kind of value** a variable stores.
 
 
-
 ## 📚 Common Data Types
 
 ### 1. String
