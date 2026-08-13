@@ -4,21 +4,6 @@
 
 An operator is a **symbol used to perform an operation on values**.
 
-Example:
-
-```javascript
-let a = 10;
-let b = 5;
-
-console.log(a + b);
-```
-
-Output:
-
-```text
-15
-```
-
 ---
 
 ## ➕ 1. Arithmetic Operators
@@ -33,53 +18,25 @@ Arithmetic operators are used to **perform calculations**.
 %  → Remainder
 ```
 
-Example:
-
-```javascript
-10 + 5
-```
-
-Output:
-
-```text
-15
-```
-
 ---
 
 ## 📝 2. Assignment Operators
 
-Assignment operators are used to **assign or change a value**.
+Assignment operators are used to **assign or update values**.
 
 ```text
-=   → Assigns a value
-+=  → Adds and assigns
--=  → Subtracts and assigns
-*=  → Multiplies and assigns
-/=  → Divides and assigns
-```
-
-Example:
-
-```javascript
-let x = 10;
-
-x += 5;
-
-console.log(x);
-```
-
-Output:
-
-```text
-15
+=   → Assign
++=  → Add and assign
+-=  → Subtract and assign
+*=  → Multiply and assign
+/=  → Divide and assign
 ```
 
 ---
 
 ## 🔍 3. Comparison Operators
 
-Comparison operators are used to **compare two values** and return `true` or `false`.
+Comparison operators are used to **compare values** and return `true` or `false`.
 
 ```text
 ==   → Equal value
@@ -92,28 +49,15 @@ Comparison operators are used to **compare two values** and return `true` or `fa
 <=   → Less than or equal
 ```
 
-Example:
+### ⭐ `==` vs `===`
 
-```javascript
-console.log(10 > 5);
-```
-
-Output:
+> `==` compares only the **value**, while `===` compares both the **value and data type**.
 
 ```text
-true
+==   → Compares value
+===  → Compares value and data type
+
 ```
-
-### `==` vs `===`
-
-```javascript
-console.log(5 == "5");   // true
-console.log(5 === "5");  // false
-```
-
-`==` checks the value, while `===` checks both the value and the data type.
-
----
 
 ## 🧠 4. Logical Operators
 
@@ -125,31 +69,34 @@ Logical operators are used to **combine or reverse conditions**.
 !   → NOT
 ```
 
-Example:
+* `&&` → Both conditions must be true.
+* `||` → At least one condition must be true.
+* `!` → Reverses the result.
 
-```javascript
-let age = 22;
+---
 
-console.log(age > 18 && age < 30);
-```
+## 🔄 5. Increment and Decrement Operators
 
-Output:
+These operators are used to **increase or decrease a value by 1**.
 
 ```text
-true
+++  → Increase by 1
+--  → Decrease by 1
 ```
 
 ---
 
 ## ⭐ Remember
 
-**Arithmetic → Calculations**
+**Arithmetic → Calculate**
 
-**Assignment → Assign or change values**
+**Assignment → Assign or update**
 
-**Comparison → Compare values**
+**Comparison → Compare**
 
 **Logical → Combine conditions**
+
+**Increment/Decrement → Increase or decrease by 1**
 
 ---
 
@@ -163,4 +110,4 @@ true
 6. What are logical operators?
 7. What does `%` do?
 8. What is the difference between `&&` and `||`?
-
+9. What do `++` and `--` do?
