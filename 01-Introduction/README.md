@@ -5,7 +5,7 @@
 **JavaScript is a programming language used to make websites interactive.**
 
 For example, JavaScript can make a website:
-
+ 
 - 🖱️ Respond when we click a button
 - 💬 Show a message or popup
 - 📝 Check a form before submitting
