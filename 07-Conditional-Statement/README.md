@@ -10,7 +10,7 @@ A conditional statement is used to **make decisions based on a condition**.
 
 `if` runs the code **when a condition is true**.
 
-```javascript
+```javascript 
 let age = 20;
 
 if (age >= 18) {
