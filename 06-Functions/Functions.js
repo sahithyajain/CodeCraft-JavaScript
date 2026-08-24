@@ -11,11 +11,9 @@ function greet() {
 
 greet();
 
-// Output:
-// Hello!
+// Output: Hello!
 
-// Explanation:
-// A function declaration is used to create a function.
+// Explanation: A function declaration is used to create a function.
 
 
 
@@ -27,15 +25,12 @@ function greetUser() {
 
 console.log(greetUser);
 
-// Output:
-// [Function: greetUser]
+// Output:  [Function: greetUser]
 
-// Explanation:
-// This does not run the function because () is missing.
+// Explanation: This does not run the function because () is missing.
 
 
-// Correct:
-// greetUser();
+// Correct:  greetUser();
 
 
 
@@ -49,11 +44,9 @@ function welcome() {
 
 welcome();
 
-// Output:
-// Welcome to JavaScript!
+// Output:   Welcome to JavaScript!
 
-// Explanation:
-// A function call runs the function.
+// Explanation:  A function call runs the function.
 
 
 
@@ -65,12 +58,10 @@ function hello() {
 
 // Nothing is printed.
 
-// Explanation:
-// The function was created but was not called.
+// Explanation:  The function was created but was not called.
 
 
-// Correct:
-// hello();
+// Correct:   hello();
 
 
 
@@ -84,12 +75,9 @@ function greetName(name) {
 
 greetName("Sahithya");
 
-// Output:
-// Hello Sahithya
+// Output:  Hello Sahithya
 
-// Explanation:
-// A parameter is a value received by a function.
-
+// Explanation:  A parameter is a value received by a function.
 
 
 // ❌ Error Program
@@ -100,11 +88,9 @@ function greetPerson(name) {
 
 greetPerson();
 
-// Output:
-// Hello undefined
+// Output:  Hello undefined
 
-// Explanation:
-// No argument was passed, so the parameter gets undefined.
+// Explanation:  No argument was passed, so the parameter gets undefined.
 
 
 
@@ -118,11 +104,9 @@ function add(a, b) {
 
 add(10, 5);
 
-// Output:
-// 15
+// Output:  15
 
-// Explanation:
-// Arguments are the values passed to a function.
+// Explanation:  Arguments are the values passed to a function.
 
 
 
@@ -134,11 +118,9 @@ function addNumbers(a, b) {
 
 addNumbers(10);
 
-// Output:
-// NaN
+// Output:  NaN
 
-// Explanation:
-// The second argument is missing, so b becomes undefined.
+// Explanation:   The second argument is missing, so b becomes undefined.
 
 
 
@@ -152,11 +134,9 @@ function multiply(a, b) {
 
 multiply(5, 2);
 
-// Output:
-// 10
+// Output:  10
 
-// Explanation:
-// A function can receive multiple parameters.
+// Explanation:  A function can receive multiple parameters.
 
 
 
@@ -168,11 +148,9 @@ function multiplyNumbers(a, b) {
 
 multiplyNumbers(5);
 
-// Output:
-// NaN
+// Output: NaN
 
-// Explanation:
-// Multiplication with undefined gives NaN.
+// Explanation: Multiplication with undefined gives NaN.
 
 
 
@@ -188,11 +166,9 @@ let result = addValues(10, 5);
 
 console.log(result);
 
-// Output:
-// 15
+// Output:  15
 
-// Explanation:
-// return sends a value back from the function.
+// Explanation:  return sends a value back from the function.
 
 
 
@@ -206,11 +182,9 @@ let answer = subtract(10, 5);
 
 console.log(answer);
 
-// Output:
-// undefined
+// Output:  undefined
 
-// Explanation:
-// The function calculates the value but does not return it.
+// Explanation:  The function calculates the value but does not return it.
 
 
 
@@ -224,11 +198,9 @@ const multiplyValues = (a, b) => {
 
 console.log(multiplyValues(5, 2));
 
-// Output:
-// 10
+// Output:  10
 
-// Explanation:
-// An arrow function is a shorter way to write a function.
+// Explanation:  An arrow function is a shorter way to write a function.
 
 
 
@@ -240,11 +212,9 @@ const divide = (a, b) => {
 
 console.log(divide(10));
 
-// Output:
-// NaN
+// Output: NaN
 
-// Explanation:
-// The second argument is missing, so b is undefined.
+// Explanation:  The second argument is missing, so b is undefined.
 
 
 
@@ -258,11 +228,9 @@ function welcomeUser() {
 
 welcomeUser();
 
-// Output:
-// Welcome!
+// Output:   Welcome!
 
-// Explanation:
-// A function can work without receiving any parameters.
+// Explanation:  A function can work without receiving any parameters.
 
 
 
@@ -274,11 +242,9 @@ function sayHello() {
 
 sayHello(10);
 
-// Output:
-// Hello!
+// Output:  Hello!
 
-// Explanation:
-// Extra arguments are ignored when the function has no parameters.
+// Explanation:  Extra arguments are ignored when the function has no parameters.
 
 
 
@@ -294,11 +260,9 @@ let squareResult = square(5);
 
 console.log(squareResult);
 
-// Output:
-// 25
+// Output:  25
 
-// Explanation:
-// A function can calculate a value and return the result.
+// Explanation:  A function can calculate a value and return the result.
 
 
 
@@ -310,11 +274,9 @@ function squareNumber(number) {
 
 console.log(squareNumber());
 
-// Output:
-// NaN
+// Output:  NaN
 
-// Explanation:
-// No number was passed, so the parameter is undefined.
+// Explanation:  No number was passed, so the parameter is undefined.
 
 
 
@@ -322,8 +284,7 @@ console.log(squareNumber());
 // ⭐ Practice
 // =====================================
 
-// Create a function called cube that takes a number
-// and returns its cube.
+// Create a function called cube that takes a number and returns its cube.
 
 // Example:
 // Input: 3
