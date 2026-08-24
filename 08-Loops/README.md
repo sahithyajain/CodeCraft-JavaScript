@@ -1,6 +1,6 @@
 # 🔁 Loops in JavaScript
 
-## 🌟 What is a Loop?
+## 🌟 What is a Loop ?
 
 A loop is used to **repeat a block of code**.
 
