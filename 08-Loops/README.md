@@ -19,7 +19,7 @@ Loops help us **repeat code without writing it again and again**.
 ```javascript
 for (let i = 1; i <= 5; i++) {
     console.log(i);
-}
+} 
 ```
 
 Output:
