@@ -16,8 +16,7 @@ for (let i = 1; i <= 5; i++) {
 // 4
 // 5
 
-// Explanation:
-// for loop repeats code a specific number of times.
+// Explanation:  for loop repeats code a specific number of times.
 
 
 
@@ -30,8 +29,7 @@ for (let i = 1; i <= 5; i--) {
 // Output:
 // Infinite loop
 
-// Explanation:
-// i is decreasing instead of increasing, so the condition never becomes false.
+// Explanation: i is decreasing instead of increasing, so the condition never becomes false.
 
 
 
@@ -53,8 +51,7 @@ while (i <= 5) {
 // 4
 // 5
 
-// Explanation:
-// while loop runs while the condition is true.
+// Explanation: while loop runs while the condition is true.
 
 
 
@@ -69,8 +66,7 @@ while (number <= 5) {
 // Output:
 // Infinite loop
 
-// Explanation:
-// The variable is never updated, so the condition always remains true.
+// Explanation: The variable is never updated, so the condition always remains true.
 
 
 
@@ -92,8 +88,7 @@ do {
 // 4
 // 5
 
-// Explanation:
-// do...while runs the code first and checks the condition afterward.
+// Explanation: do...while runs the code first and checks the condition afterward.
 
 
 
@@ -108,8 +103,7 @@ do {
 // Output:
 // 10
 
-// Explanation:
-// do...while runs at least once even when the condition is false.
+// Explanation:  do...while runs at least once even when the condition is false.
 
 
 
@@ -130,8 +124,7 @@ for (let num = 1; num <= 5; num++) {
 // 1
 // 2
 
-// Explanation:
-// break stops the loop completely.
+// Explanation:  break stops the loop completely.
 
 
 
@@ -150,8 +143,7 @@ for (let num = 1; num <= 5; num++) {
 // 1
 // 2
 
-// Explanation:
-// Code after break inside the loop does not run.
+// Explanation: Code after break inside the loop does not run.
 
 
 
@@ -174,8 +166,7 @@ for (let num = 1; num <= 5; num++) {
 // 4
 // 5
 
-// Explanation:
-// continue skips the current iteration and moves to the next one.
+// Explanation:  continue skips the current iteration and moves to the next one.
 
 
 
@@ -196,8 +187,7 @@ for (let num = 1; num <= 5; num++) {
 // 4
 // 5
 
-// Explanation:
-// continue does not stop the loop; it only skips one iteration.
+// Explanation: continue does not stop the loop; it only skips one iteration.
 
 
 
