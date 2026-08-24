@@ -6,7 +6,7 @@ A conditional statement is used to **make decisions based on a condition**.
 
 ---
 
-## 1. `if`
+## 1. `if` 
 
 `if` runs the code **when a condition is true**.
 
