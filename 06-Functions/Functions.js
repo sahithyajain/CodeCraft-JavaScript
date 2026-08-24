@@ -5,6 +5,7 @@
 // 1. Function Declaration
 // =====================================
 
+
 function greet() {
     console.log("Hello!");
 }
