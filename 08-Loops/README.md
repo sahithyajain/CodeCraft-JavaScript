@@ -6,6 +6,7 @@ A loop is used to **repeat a block of code**.
 
 ---
 
+
 ## 🤔 Why Do We Use Loops?
 
 Loops help us **repeat code without writing it again and again**.
