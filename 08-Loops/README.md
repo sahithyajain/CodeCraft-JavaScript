@@ -6,7 +6,6 @@ A loop is used to **repeat a block of code**.
 
 ---
 
-
 ## 🤔 Why Do We Use Loops?
 
 Loops help us **repeat code without writing it again and again**.
@@ -231,4 +230,4 @@ while (i <= 5) {
 7. What does `break` do?
 8. What does `continue` do?
 9. What is an infinite loop?
-10. What are the three parts of a `for` loop?
+10. What are the three parts of a `for` loop .?
