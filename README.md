@@ -32,8 +32,7 @@ Each topic in this repository includes:
 # 📚 Learning Roadmap
 
 ## 🌱 JavaScript Fundamentals
-The basic concepts and core features of JavaScript that form the foundation for learning and building applications.
-
+The basic concepts that form the foundation for learning JavaScript.
 
 - [ ] Introduction
 - [ ] Variables
@@ -43,24 +42,21 @@ The basic concepts and core features of JavaScript that form the foundation for 
 - [ ] Conditional Statements
 - [ ] Loops
 - [ ] Functions
-- [ ] Scope
-- [ ] Hoisting
-
-
-
-## 📦 Intermediate JavaScript
-Concepts that build on the fundamentals and help you write more powerful and organized JavaScript code.
-
 - [ ] Arrays
 - [ ] Strings
 - [ ] Objects
+
+
+
+## 📦 Core JavaScript Concepts
+Important concepts that help you understand how JavaScript works.
+
+- [ ] Scope
+- [ ] Hoisting
 - [ ] 'this' Keyword
-<!--- [ ] Scope
-- [ ] Hoisting-->
-- [ ] Closures
 - [ ] Callbacks
 - [ ] Higher Order Functions
-
+- [ ] Closures
 
 
 ## ⚡ Modern JavaScript (ES6+)
@@ -71,6 +67,9 @@ Modern JavaScript features that make code shorter, cleaner, and easier to manage
 - [ ] Destructuring
 - [ ] Spread Operator
 - [ ] Rest Operator
+- [ ] Default Parameters
+- [ ] Optional Chaining
+- [ ] Nullish Coalescing
 - [ ] Modules
 
 
@@ -139,38 +138,41 @@ CodeCraft-JavaScript/
 ├── 06-Functions/
 ├── 07-Conditional-Statements/
 ├── 08-Loops/
-├── 09-Scope/
-├── 10-Hoisting/
-├── 11-Arrays/
-├── 12-Strings/
-├── 13-Objects/
+├── 09-Arrays/
+├── 10-Strings/
+├── 11-Objects/
+├── 12-Scope/
+├── 13-Hoisting/
 ├── 14-this-Keyword/
-├── 15-Closures/
-├── 16-Callbacks/
-├── 17-Higher-Order-Functions/
+├── 15-Callbacks/
+├── 16-Higher-Order-Functions/
+├── 17-Closures/
 ├── 18-Arrow-Functions/
 ├── 19-Template-Literals/
 ├── 20-Destructuring/
 ├── 21-Spread-Operator/
 ├── 22-Rest-Operator/
-├── 23-Modules/
-├── 24-Promises/
-├── 25-Async-Await/
-├── 26-Fetch-API/
-├── 27-Error-Handling/
-├── 28-JSON/
-├── 29-BOM/
-├── 30-DOM/
-├── 31-Events/
-├── 32-Forms/
-├── 33-Local-Storage/
-├── 34-Session-Storage/
-├── 35-OOP/
-├── 36-Prototypes/
-├── 37-Classes/
-├── 38-Inheritance/
-├── 39-Encapsulation/
-├── 40-Polymorphism/
+├── 23-Default-Parameters/
+├── 24-Optional-Chaining/
+├── 25-Nullish-Coalescing/
+├── 26-Modules/
+├── 27-JSON/
+├── 28-BOM/
+├── 29-DOM/
+├── 30-Events/
+├── 31-Forms/
+├── 32-Local-Storage/
+├── 33-Session-Storage/
+├── 34-Promises/
+├── 35-Async-Await/
+├── 36-Fetch-API/
+├── 37-Error-Handling/
+├── 38-OOP/
+├── 39-Prototypes/
+├── 40-Classes/
+├── 41-Inheritance/
+├── 42-Encapsulation/
+├── 43-Polymorphism/
 └── Projects/
 
 ```
@@ -191,6 +193,7 @@ CodeCraft-JavaScript/
 - Learn JavaScript step by step.
 - Practice by writing code regularly.
 - Improve problem-solving skills.
+- Understand how JavaScript works internally.
 - Prepare for software engineering interviews.
 - Build practical mini projects.
 - Create meaningful GitHub contributions.
@@ -220,48 +223,52 @@ CodeCraft-JavaScript/
 
 # 📈 Progress
 
-| Topic | Status |
-|---|---|
-| Introduction | ✅ |
-| Variables | ✅ |
-| Data Types | ✅ |
-| Operators | ✅ |
-| Type Conversion | ✅ |
-| Conditional Statements | ⏳ |
-| Loops | ⏳ |
-| Functions | ✅ |
-| Scope | ⏳ |
-| Hoisting | ⏳ |
-| Arrays | ⏳ |
-| Strings | ⏳ |
-| Objects | ⏳ |
-| `this` Keyword | ⏳ |
-| Closures | ⏳ |
-| Callbacks | ⏳ |
-| Higher-Order Functions | ⏳ |
-| Arrow Functions | ⏳ |
-| Template Literals | ⏳ |
-| Destructuring | ⏳ |
-| Spread Operator | ⏳ |
-| Rest Operator | ⏳ |
-| Modules | ⏳ |
-| Promises | ⏳ |
-| Async / Await | ⏳ |
-| Fetch API | ⏳ |
-| Error Handling | ⏳ |
-| JSON | ⏳ |
-| BOM | ⏳ |
-| DOM | ⏳ |
-| Events | ⏳ |
-| Forms | ⏳ |
-| Local Storage | ⏳ |
-| Session Storage | ⏳ |
-| OOP | ⏳ |
-| Prototypes | ⏳ |
-| Classes | ⏳ |
-| Inheritance | ⏳ |
-| Encapsulation | ⏳ |
-| Polymorphism | ⏳ |
+| Topic                  | Status |
+| ---------------------- | ------ |
+| Introduction           | ✅      |
+| Variables              | ✅      |
+| Data Types             | ✅      |
+| Operators              | ✅      |
+| Type Conversion        | ✅      |
+| Functions              | ✅      |
+| Conditional Statements | ✅      |
+| Loops                  | ✅      |
+| Arrays                 | ⏳      |
+| Strings                | ⏳      |
+| Objects                | ⏳      |
+| Scope                  | ⏳      |
+| Hoisting               | ⏳      |
+| `this` Keyword         | ⏳      |
+| Callbacks              | ⏳      |
+| Higher-Order Functions | ⏳      |
+| Closures               | ⏳      |
+| Arrow Functions        | ⏳      |
+| Template Literals      | ⏳      |
+| Destructuring          | ⏳      |
+| Spread Operator        | ⏳      |
+| Rest Operator          | ⏳      |
+| Default Parameters     | ⏳      |
+| Optional Chaining      | ⏳      |
+| Nullish Coalescing     | ⏳      |
+| Modules                | ⏳      |
+| JSON                   | ⏳      |
+| BOM                    | ⏳      |
+| DOM                    | ⏳      |
+| Events                 | ⏳      |
+| Forms                  | ⏳      |
+| Local Storage          | ⏳      |
+| Session Storage        | ⏳      |
+| Promises               | ⏳      |
+| Async / Await          | ⏳      |
+| Fetch API              | ⏳      |
+| Error Handling         | ⏳      |
+| OOP                    | ⏳      |
+| Prototypes             | ⏳      |
+| Classes                | ⏳      |
+| Inheritance            | ⏳      |
+| Encapsulation          | ⏳      |
+| Polymorphism           | ⏳      |
+
 
 ---
 
