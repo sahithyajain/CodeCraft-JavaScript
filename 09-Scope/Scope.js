@@ -5,7 +5,6 @@
 // 1. Global Scope
 // =====================================
 
-// ✅ Correct Program
 
 let name = "Sahithya";
 
@@ -62,7 +61,6 @@ showCity();
 // 2. Function Scope
 // =====================================
 
-// ✅ Correct Program
 
 function welcome() {
     let message = "Hello!";
@@ -118,7 +116,6 @@ showAge();
 // 3. Block Scope
 // =====================================
 
-// ✅ Correct Program
 
 if (true) {
     let number = 10;
@@ -175,7 +172,6 @@ if (true) {
 // 4. Local Scope
 // =====================================
 
-// ✅ Correct Program
 
 function student() {
     let marks = 90;
@@ -232,7 +228,6 @@ studentMarks();
 // 5. var Scope
 // =====================================
 
-// ✅ Correct Program
 
 function example() {
 
@@ -293,7 +288,6 @@ example2();
 // 6. let Scope
 // =====================================
 
-// ✅ Correct Program
 
 if (true) {
 
@@ -347,7 +341,6 @@ if (true) {
 // 7. const Scope
 // =====================================
 
-// ✅ Correct Program
 
 if (true) {
 
@@ -400,7 +393,7 @@ if (true) {
 // 8. var vs let vs const
 // =====================================
 
-// ✅ Correct Program
+
 
 if (true) {
 
