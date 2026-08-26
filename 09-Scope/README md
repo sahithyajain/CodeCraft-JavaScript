@@ -1,1 +1,193 @@
-Scope
+# 🔐 Scope in JavaScript
+
+## 🌟 What is Scope?
+
+Scope means **where a variable can be accessed in a program**.
+
+---
+
+## 1. Global Scope
+
+A variable declared outside a function or block has **global scope**.
+
+```javascript
+let name = "Sahithya";
+
+function greet() {
+    console.log(name);
+}
+
+greet();
+```
+
+Output:
+
+```text
+Sahithya
+```
+
+**Explanation:** A global variable can be accessed from different parts of the program.
+
+---
+
+## 2. Function Scope
+
+A variable declared inside a function can be accessed **only inside that function**.
+
+```javascript
+function greet() {
+    let message = "Hello!";
+    console.log(message);
+}
+
+greet();
+```
+
+Output:
+
+```text
+Hello!
+```
+
+**Explanation:** A variable declared inside a function belongs to that function.
+
+---
+
+## 3. Block Scope
+
+A variable declared with `let` or `const` inside `{ }` can be accessed **only inside that block**.
+
+```javascript
+if (true) {
+    let age = 22;
+    const city = "Bangalore";
+
+    console.log(age);
+    console.log(city);
+}
+```
+
+Output:
+
+```text
+22
+Bangalore
+```
+
+**Explanation:** `let` and `const` are block-scoped.
+
+---
+
+## 4. Local Scope
+
+A variable declared inside a function or block is called a **local variable** because it is available only in that local area.
+
+```javascript
+function greet() {
+    let message = "Hello!";
+    console.log(message);
+}
+
+greet();
+```
+
+Output:
+
+```text
+Hello!
+```
+
+**Explanation:** A local variable cannot be accessed outside its scope.
+
+---
+
+## ⭐ `var` vs `let` and `const`
+
+`var` is **function-scoped**, while `let` and `const` are **block-scoped**.
+
+```javascript
+if (true) {
+    var a = 10;
+    let b = 20;
+    const c = 30;
+
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+```
+
+Output:
+
+```text
+10
+20
+30
+```
+
+Outside the block:
+
+```javascript
+console.log(a);
+```
+
+Output:
+
+```text
+10
+```
+
+`b` and `c` cannot be accessed outside the block.
+
+---
+
+## ⚠️ Common Error
+
+Trying to access a variable outside its scope causes an error.
+
+```javascript
+function test() {
+    let message = "Hello!";
+}
+
+console.log(message);
+```
+
+Output:
+
+```text
+ReferenceError: message is not defined
+```
+
+**Explanation:** `message` exists only inside the function.
+
+---
+
+## ⭐ Remember
+
+**Scope → Where a variable can be accessed**
+
+**Global Scope → Available throughout the program**
+
+**Function Scope → Available inside a function**
+
+**Block Scope → Available inside `{ }`**
+
+**Local Scope → Available only in its local area**
+
+**`var` → Function-scoped**
+
+**`let` / `const` → Block-scoped**
+
+---
+
+## 🎤 Interview Questions
+
+1. What is scope?
+2. What is global scope?
+3. What is function scope?
+4. What is block scope?
+5. What is local scope?
+6. What is the difference between `var` and `let`?
+7. What is the difference between function scope and block scope?
+8. Why are `let` and `const` called block-scoped?
