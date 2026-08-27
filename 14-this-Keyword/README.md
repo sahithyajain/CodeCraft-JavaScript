@@ -4,7 +4,7 @@
 
 `this` is a special keyword in JavaScript.
 
-It tells us **which object or context the function is working with**.(It refers to the **current object**)
+It refers to the **current object**
 
 
 The important thing to remember is:
