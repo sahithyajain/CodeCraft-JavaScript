@@ -233,11 +233,11 @@ CodeCraft-JavaScript/
 | Functions              | ✅      |
 | Conditional Statements | ✅      |
 | Loops                  | ✅      |
-| Arrays                 | ⏳      |
-| Strings                | ⏳      |
-| Objects                | ⏳      |
-| Scope                  | ⏳      |
-| Hoisting               | ⏳      |
+| Arrays                 | ✅      |
+| Strings                | ✅      |
+| Objects                | ✅      |
+| Scope                  | ✅      |
+| Hoisting               | ✅      |
 | `this` Keyword         | ⏳      |
 | Callbacks              | ⏳      |
 | Higher-Order Functions | ⏳      |
