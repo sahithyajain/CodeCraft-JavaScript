@@ -1,4 +1,4 @@
-# 🔥 CodeCraft-JavaScript
+## 🔥 CodeCraft-JavaScript
 
 # 📖 About 
 
