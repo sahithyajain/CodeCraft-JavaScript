@@ -15,8 +15,7 @@ function runFunction(callback) {
 
 runFunction(sayHello);
 
-// Output:
-// Hello
+// Output: Hello
 
 // Explanation:
 // runFunction() receives another function.
