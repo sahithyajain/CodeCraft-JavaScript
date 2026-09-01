@@ -1,5 +1,4 @@
 // 📕 JavaScript Closures
-// Simple Program → Explanation → ❌ Error → Explanation → ✅ Solution
 
 
 // =====================================
