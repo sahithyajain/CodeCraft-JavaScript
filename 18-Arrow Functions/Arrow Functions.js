@@ -7,11 +7,9 @@
 
 console.log("Learning Arrow Functions!");
 
-// Output:
-// Learning Arrow Functions!
+// Output: Learning Arrow Functions!
 
-// Explanation:
-// This program prints a simple message.
+// Explanation: This program prints a simple message.
 
 
 /*
@@ -26,8 +24,7 @@ const greet = () => {
 
 greet();
 
-// Output:
-// Hello
+// Output: Hello
 
 // Explanation:
 // greet is an arrow function.
