@@ -238,14 +238,14 @@ CodeCraft-JavaScript/
 | Objects                | ✅      |
 | Scope                  | ✅      |
 | Hoisting               | ✅      |
-| `this` Keyword         | ⏳      |
-| Callbacks              | ⏳      |
-| Higher-Order Functions | ⏳      |
-| Closures               | ⏳      |
-| Arrow Functions        | ⏳      |
-| Template Literals      | ⏳      |
-| Destructuring          | ⏳      |
-| Spread Operator        | ⏳      |
+| `this` Keyword         | ✅      |
+| Callbacks              | ✅      |
+| Higher-Order Functions | ✅      |
+| Closures               | ✅      |
+| Arrow Functions        | ✅      |
+| Template Literals      | ✅      |
+| Destructuring          | ✅      |
+| Spread Operator        | ✅      |
 | Rest Operator          | ⏳      |
 | Default Parameters     | ⏳      |
 | Optional Chaining      | ⏳      |
