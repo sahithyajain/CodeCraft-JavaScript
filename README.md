@@ -51,7 +51,7 @@ The basic concepts that form the foundation for learning JavaScript.
 ## 📦 Core JavaScript Concepts
 Important concepts that help you understand how JavaScript works.
 
-- [ ] Scope
+- [ ] Scope 
 - [ ] Hoisting
 - [ ] 'this' Keyword
 - [ ] Callbacks
