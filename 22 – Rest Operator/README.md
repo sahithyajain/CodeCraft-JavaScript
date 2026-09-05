@@ -5,7 +5,7 @@
 The **Rest Operator (`...`)** collects multiple values into one array.
 
 ---
-
+ 
 ## 🤔 Why Do We Use It?
 
 - To collect many values
