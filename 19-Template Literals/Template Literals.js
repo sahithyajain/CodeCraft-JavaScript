@@ -7,11 +7,9 @@
 
 console.log(`Learning Template Literals!`);
 
-// Output:
-// Learning Template Literals!
+// Output:  Learning Template Literals!
 
-// Explanation:
-// This is a simple string written using backticks.
+// Explanation:  This is a simple string written using backticks.
 
 
 // ==================================================
@@ -22,11 +20,9 @@ let message = `Hello World`;
 
 console.log(message);
 
-// Output:
-// Hello World
+// Output:  Hello World
 
-// Explanation:
-// A template literal is a string written using backticks.
+// Explanation:  A template literal is a string written using backticks.
 
 
 // ❌ Error Program
@@ -35,11 +31,9 @@ let messageError = "Hello World;
 
 console.log(messageError);
 
-// Error:
-// SyntaxError: Invalid or unexpected token
+// Error: SyntaxError: Invalid or unexpected token
 
-// Error Explanation:
-// The string is missing the closing quote.
+// Error Explanation: The string is missing the closing quote.
 
 
 // ✅ Solution
@@ -48,79 +42,68 @@ let messageCorrect = `Hello World`;
 
 console.log(messageCorrect);
 
-// Output:
-// Hello World
+// Output:  Hello World
 
-// Solution Explanation:
-// We used matching backticks at the beginning and end.
+// Solution Explanation:  We used matching backticks at the beginning and end.
 
 
 // ==================================================
 // 3. VARIABLE INSIDE TEMPLATE LITERAL
 // ==================================================
 
-let name = "Riya";
+let name = "Sahithya";
 
 console.log(`Hello ${name}`);
 
-// Output:
-// Hello Riya
+// Output:  Hello Sahithya
 
-// Explanation:
-// ${name} adds the value of name inside the string.
+// Explanation:  ${name} adds the value of name inside the string.
 
 
 // ❌ Error Program
 
-let nameError = "Riya";
+let nameError = "Sahithya";
 
 console.log(`Hello ${usernameError}`);
 
-// Error:
-// ReferenceError: usernameError is not defined
+// Error:   ReferenceError: usernameError is not defined
 
-// Error Explanation:
-// usernameError was not created.
+// Error Explanation:   usernameError was not created.
 
 
 // ✅ Solution
 
-let nameCorrect = "Riya";
+let nameCorrect = "Sahithya";
 
 console.log(`Hello ${nameCorrect}`);
 
-// Output:
-// Hello Riya
+// Output: Hello Sahithya
 
-// Solution Explanation:
-// We used the variable that was created.
+// Solution Explanation:  We used the variable that was created.
 
 
 // ==================================================
 // 4. MULTIPLE VARIABLES
 // ==================================================
 
-let firstName = "Riya";
-let age = 20;
+let firstName = "Sahithya";
+let age = 24;
 
 console.log(`Name: ${firstName}, Age: ${age}`);
 
-// Output:
-// Name: Riya, Age: 20
+// Output:  Name: Sahithya, Age: 24
 
-// Explanation:
-// We can use more than one variable with ${}.
+// Explanation:  We can use more than one variable with ${}.
 
 
 // ❌ Error Program
 
-let firstNameError = "Riya";
-let ageError = 20;
+let firstNameError = "Sahithya";
+let ageError = 24;
 
 console.log(`Name: ${firstNameError}, Age: ${years}`);
 
-// Error:
-// ReferenceError: years is not defined
+// Error:   ReferenceError: years is not defined
 
 // Error Explanation:
 // years was not created.
@@ -129,16 +112,14 @@ console.log(`Name: ${firstNameError}, Age: ${years}`);
 
 // ✅ Solution
 
-let firstNameCorrect = "Riya";
-let ageCorrect = 20;
+let firstNameCorrect = "Sahithya";
+let ageCorrect = 24;
 
 console.log(`Name: ${firstNameCorrect}, Age: ${ageCorrect}`);
 
-// Output:
-// Name: Riya, Age: 20
+// Output:  Name: Sahithya, Age: 24
 
-// Solution Explanation:
-// We used the correct variable names.
+// Solution Explanation:  We used the correct variable names.
 
 
 // ==================================================
@@ -150,11 +131,9 @@ let b = 5;
 
 console.log(`Total: ${a + b}`);
 
-// Output:
-// Total: 15
+// Output:  Total: 15
 
-// Explanation:
-// We can perform calculations inside ${}.
+// Explanation: We can perform calculations inside ${}.
 
 
 // ❌ Error Program
@@ -164,11 +143,9 @@ let bError = 5;
 
 console.log(`Total: ${aError + c}`);
 
-// Error:
-// ReferenceError: c is not defined
+// Error:  ReferenceError: c is not defined
 
-// Error Explanation:
-// c does not exist in the program.
+// Error Explanation:  c does not exist in the program.
 
 
 // ✅ Solution
@@ -178,11 +155,9 @@ let bCorrect = 5;
 
 console.log(`Total: ${aCorrect + bCorrect}`);
 
-// Output:
-// Total: 15
+// Output:  Total: 15
 
-// Solution Explanation:
-// We used the variables that were created.
+// Solution Explanation:   We used the variables that were created.
 
 
 // ==================================================
@@ -193,10 +168,9 @@ function greet() {
     return "Hello";
 }
 
-console.log(`${greet()} Riya`);
+console.log(`${greet()} Sahithya`);
 
-// Output:
-// Hello Riya
+// Output:  Hello Sahithya
 
 // Explanation:
 // We can call a function inside ${}.
@@ -209,13 +183,11 @@ function greetError() {
     return "Hello";
 }
 
-console.log(`${welcome()} Riya`);
+console.log(`${welcome()} Sahithya`);
 
-// Error:
-// ReferenceError: welcome is not defined
+// Error:  ReferenceError: welcome is not defined
 
-// Error Explanation:
-// There is no function called welcome.
+// Error Explanation:   There is no function called welcome.
 
 
 // ✅ Solution
@@ -224,13 +196,11 @@ function greetCorrect() {
     return "Hello";
 }
 
-console.log(`${greetCorrect()} Riya`);
+console.log(`${greetCorrect()} Sahithya`);
 
-// Output:
-// Hello Riya
+// Output: Hello Sahithya
 
-// Solution Explanation:
-// We called the function that was created.
+// Solution Explanation: We called the function that was created.
 
 
 // ==================================================
@@ -238,28 +208,25 @@ console.log(`${greetCorrect()} Riya`);
 // ==================================================
 
 let student = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 console.log(`Name: ${student.name}`);
 
-// Output:
-// Name: Riya
+// Output:  Name: Sahithya
 
-// Explanation:
-// We can use an object property inside ${}.
+// Explanation:  We can use an object property inside ${}.
 
 
 // ❌ Error Program
 
 let studentError = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 console.log(`Name: ${studentError.age.name}`);
 
-// Error:
-// TypeError: Cannot read properties of undefined
+// Error:  TypeError: Cannot read properties of undefined
 
 // Error Explanation:
 // age does not exist in the object.
@@ -269,16 +236,14 @@ console.log(`Name: ${studentError.age.name}`);
 // ✅ Solution
 
 let studentCorrect = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 console.log(`Name: ${studentCorrect.name}`);
 
-// Output:
-// Name: Riya
+// Output:   Name: Sahithya
 
-// Solution Explanation:
-// We used the property that exists: name.
+// Solution Explanation:  We used the property that exists: name.
 
 
 // ==================================================
@@ -289,11 +254,9 @@ let fruits = ["Apple", "Mango"];
 
 console.log(`Fruit: ${fruits[0]}`);
 
-// Output:
-// Fruit: Apple
+// Output:  Fruit: Apple
 
-// Explanation:
-// fruits[0] gets the first value from the array.
+// Explanation:   fruits[0] gets the first value from the array.
 
 
 // ❌ Error Program
@@ -302,11 +265,9 @@ let fruitsError = ["Apple", "Mango"];
 
 console.log(`Fruit: ${fruitsError[5].name}`);
 
-// Error:
-// TypeError: Cannot read properties of undefined
+// Error:   TypeError: Cannot read properties of undefined
 
-// Error Explanation:
-// There is no item at index 5.
+// Error Explanation:  There is no item at index 5.
 
 
 // ✅ Solution
@@ -315,11 +276,9 @@ let fruitsCorrect = ["Apple", "Mango"];
 
 console.log(`Fruit: ${fruitsCorrect[0]}`);
 
-// Output:
-// Fruit: Apple
+// Output:  Fruit: Apple
 
-// Solution Explanation:
-// Index 0 contains "Apple".
+// Solution Explanation:  Index 0 contains "Apple".
 
 
 // ==================================================
@@ -349,11 +308,9 @@ Good Morning";
 
 console.log(multiLineError);
 
-// Error:
-// SyntaxError: Invalid or unexpected token
+// Error: SyntaxError: Invalid or unexpected token
 
-// Error Explanation:
-// Normal quotes cannot directly contain multiple lines.
+// Error Explanation:  Normal quotes cannot directly contain multiple lines.
 
 
 // ✅ Solution
@@ -382,39 +339,33 @@ let age2 = 20;
 
 console.log(`My name is ${firstName2} and I am ${age2}`);
 
-// Output:
-// My name is Riya and I am 20
+// Output:   My name is Riya and I am 20
 
-// Explanation:
-// Template literals join text and variables easily.
+// Explanation:   Template literals join text and variables easily.
 
 
 // ❌ Error Program
 
-let firstNameError2 = "Riya";
-let ageError2 = 20;
+let firstNameError2 = "Sahithya";
+let ageError2 = 24;
 
 console.log(`My name is ${firstNameError2} and I am ${yearsError}`);
 
-// Error:
-// ReferenceError: yearsError is not defined
+// Error:  ReferenceError: yearsError is not defined
 
-// Error Explanation:
-// yearsError was not created.
+// Error Explanation:  yearsError was not created.
 
 
 // ✅ Solution
 
-let firstNameCorrect2 = "Riya";
-let ageCorrect2 = 20;
+let firstNameCorrect2 = "Sahithya";
+let ageCorrect2 = 24;
 
 console.log(`My name is ${firstNameCorrect2} and I am ${ageCorrect2}`);
 
-// Output:
-// My name is Riya and I am 20
+// Output:  My name is Sahithya and I am Sahithya
 
-// Solution Explanation:
-// We used the correct variable names.
+// Solution Explanation:  We used the correct variable names.
 
 
 // ==================================================
@@ -425,8 +376,7 @@ let age3 = 20;
 
 console.log(`${age3 >= 18 ? "Adult" : "Minor"}`);
 
-// Output:
-// Adult
+// Output:  Adult
 
 // Explanation:
 // The condition checks if age is 18 or more.
@@ -439,11 +389,9 @@ let ageError3 = 20;
 
 console.log(`${ageError3 >= limit ? "Adult" : "Minor"}`);
 
-// Error:
-// ReferenceError: limit is not defined
+// Error:  ReferenceError: limit is not defined
 
-// Error Explanation:
-// limit was not created.
+// Error Explanation:  limit was not created.
 
 
 // ✅ Solution
@@ -452,11 +400,9 @@ let ageCorrect3 = 20;
 
 console.log(`${ageCorrect3 >= 18 ? "Adult" : "Minor"}`);
 
-// Output:
-// Adult
+// Output:  Adult
 
-// Solution Explanation:
-// We used 18 directly as the condition limit.
+// Solution Explanation:   We used 18 directly as the condition limit.
 
 
 // ==================================================
@@ -467,10 +413,9 @@ function greetName(name) {
     return `Hello ${name}`;
 }
 
-console.log(greetName("Asha"));
+console.log(greetName("Sahithya"));
 
-// Output:
-// Hello Asha
+// Output: Hello Sahithya
 
 // Explanation:
 // The function returns a template literal.
@@ -483,13 +428,11 @@ function greetNameError(name) {
     return `Hello ${username}`;
 }
 
-console.log(greetNameError("Asha"));
+console.log(greetNameError("Sahithya"));
 
-// Error:
-// ReferenceError: username is not defined
+// Error:  ReferenceError: username is not defined
 
-// Error Explanation:
-// The parameter is called name, not username.
+// Error Explanation:  The parameter is called name, not username.
 
 
 // ✅ Solution
@@ -498,27 +441,24 @@ function greetNameCorrect(name) {
     return `Hello ${name}`;
 }
 
-console.log(greetNameCorrect("Asha"));
+console.log(greetNameCorrect("Sahithya"));
 
-// Output:
-// Hello Asha
+// Output: Hello Sahithya
 
-// Solution Explanation:
-// We used the correct parameter: name.
+// Solution Explanation:  We used the correct parameter: name.
 
 
 // ==================================================
 // 13. TEMPLATE LITERAL WITH map()
 // ==================================================
 
-let names = ["Asha", "Riya"];
+let names = ["Vishu", "Sahithya"];
 
 let result = names.map(name => `Hello ${name}`);
 
 console.log(result);
 
-// Output:
-// ["Hello Asha", "Hello Riya"]
+// Output:  ["Hello Vishu", "Hello Sahithya"]
 
 // Explanation:
 // map() goes through each name.
@@ -527,14 +467,13 @@ console.log(result);
 
 // ❌ Error Program
 
-let namesError = ["Asha", "Riya"];
+let namesError = ["Vishu", "Sahithya"];
 
 let resultError = namesError.map(name => `Hello ${username}`);
 
 console.log(resultError);
 
-// Error:
-// ReferenceError: username is not defined
+// Error: ReferenceError: username is not defined
 
 // Error Explanation:
 // The parameter is called name.
@@ -543,17 +482,15 @@ console.log(resultError);
 
 // ✅ Solution
 
-let namesCorrect = ["Asha", "Riya"];
+let namesCorrect = ["Vishu", "Sahithya"];
 
 let resultCorrect = namesCorrect.map(name => `Hello ${name}`);
 
 console.log(resultCorrect);
 
-// Output:
-// ["Hello Asha", "Hello Riya"]
+// Output:  ["Hello Vishu", "Hello Sahithya"]
 
-// Solution Explanation:
-// We used the correct parameter name.
+// Solution Explanation:  We used the correct parameter name.
 
 
 // ==================================================
@@ -566,12 +503,9 @@ let result2 = `${marks >= 35 ? "Pass" : "Fail"}`;
 
 console.log(result2);
 
-// Output:
-// Pass
+// Output: Pass
 
-// Explanation:
-// If marks are 35 or more, the result is Pass.
-// Otherwise, it is Fail.
+// Explanation: If marks are 35 or more, the result is Pass. Otherwise, it is Fail.
 
 
 // ❌ Error Program
@@ -582,11 +516,9 @@ let resultError2 = `${marksError >= passMark ? "Pass" : "Fail"}`;
 
 console.log(resultError2);
 
-// Error:
-// ReferenceError: passMark is not defined
+// Error:   ReferenceError: passMark is not defined
 
-// Error Explanation:
-// passMark was not created.
+// Error Explanation:   passMark was not created.
 
 
 // ✅ Solution
@@ -597,18 +529,16 @@ let resultCorrect2 = `${marksCorrect >= 35 ? "Pass" : "Fail"}`;
 
 console.log(resultCorrect2);
 
-// Output:
-// Pass
+// Output:  Pass
 
-// Solution Explanation:
-// We used 35 as the passing mark.
+// Solution Explanation:  We used 35 as the passing mark.
 
 
 // ==================================================
 // 15. TEMPLATE LITERAL VS +
 // ==================================================
 
-let name2 = "Riya";
+let name2 = "Sahithya";
 
 // Using +
 console.log("Hello " + name2);
@@ -617,8 +547,8 @@ console.log("Hello " + name2);
 console.log(`Hello ${name2}`);
 
 // Output:
-// Hello Riya
-// Hello Riya
+// Hello Sahithya
+// Hello Sahithya
 
 // Explanation:
 // Both methods give the same result.
@@ -627,12 +557,11 @@ console.log(`Hello ${name2}`);
 
 // ❌ Error Program
 
-let nameError2 = "Riya";
+let nameError2 = "Sahithya";
 
 console.log(`Hello ${userName}`);
 
-// Error:
-// ReferenceError: userName is not defined
+// Error:   ReferenceError: userName is not defined
 
 // Error Explanation:
 // userName was not created.
@@ -641,12 +570,10 @@ console.log(`Hello ${userName}`);
 
 // ✅ Solution
 
-let nameCorrect2 = "Riya";
+let nameCorrect2 = "Sahithya";
 
 console.log(`Hello ${nameCorrect2}`);
 
-// Output:
-// Hello Riya
+// Output:  Hello Sahithya
 
-// Solution Explanation:
-// We used the correct variable inside ${}.
+// Solution Explanation: We used the correct variable inside ${}.
