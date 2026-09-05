@@ -11,11 +11,9 @@ function greet(name = "Guest") {
 
 greet();
 
-// Output:
-// Hello Guest
+// Output: Hello Guest
 
-// Explanation:
-// If no value is given, the function uses "Guest".
+// Explanation: If no value is given, the function uses "Guest".
 
 
 // ❌ Error Program
@@ -26,11 +24,9 @@ function greetError(name) {
 
 greetError();
 
-// Output:
-// Hello undefined
+// Output: Hello undefined
 
-// Error Explanation:
-// No value was given, so name becomes undefined.
+// Error Explanation: No value was given, so name becomes undefined.
 
 
 // ✅ Solution
@@ -41,11 +37,9 @@ function greetCorrect(name = "Guest") {
 
 greetCorrect();
 
-// Output:
-// Hello Guest
+// Output: Hello Guest
 
-// Solution Explanation:
-// "Guest" is used when no value is given.
+// Solution Explanation: "Guest" is used when no value is given.
 
 
 // ==================================================
@@ -56,13 +50,11 @@ function greet2(name = "Guest") {
     console.log(`Hello ${name}`);
 }
 
-greet2("Riya");
+greet2("Sahithya");
 
-// Output:
-// Hello Riya
+// Output: Hello Sahithya
 
-// Explanation:
-// When we give a value, it replaces the default value.
+// Explanation: When we give a value, it replaces the default value.
 
 
 // ❌ Error Program
@@ -73,8 +65,7 @@ function greet2Error(name = "Guest") {
 
 greet2Error;
 
-// Output:
-// Nothing
+// Output: Nothing
 
 // Error Explanation:
 // The function was not called.
@@ -87,13 +78,11 @@ function greet2Correct(name = "Guest") {
     console.log(`Hello ${name}`);
 }
 
-greet2Correct("Riya");
+greet2Correct("Sahithya");
 
-// Output:
-// Hello Riya
+// Output:m Hello Sahithya
 
-// Solution Explanation:
-// We called the function and passed "Riya".
+// Solution Explanation: We called the function and passed "Riya".
 
 
 // ==================================================
@@ -106,11 +95,9 @@ function add(a = 10, b = 20) {
 
 add();
 
-// Output:
-// 30
+// Output: 30
 
-// Explanation:
-// a gets 10 and b gets 20 by default.
+// Explanation: a gets 10 and b gets 20 by default.
 
 
 // ❌ Error Program
@@ -121,8 +108,7 @@ function addError(a = 10, b = 20) {
 
 addError();
 
-// Error:
-// ReferenceError: c is not defined
+// Error:  ReferenceError: c is not defined
 
 // Error Explanation:
 // c was not created.
@@ -137,11 +123,9 @@ function addCorrect(a = 10, b = 20) {
 
 addCorrect();
 
-// Output:
-// 30
+// Output: 30
 
-// Solution Explanation:
-// We use the correct parameters a and b.
+// Solution Explanation: We use the correct parameters a and b.
 
 
 // ==================================================
@@ -152,10 +136,9 @@ function greet3(name, message = "Hello") {
     console.log(message + " " + name);
 }
 
-greet3("Riya");
+greet3("Sahithya");
 
-// Output:
-// Hello Riya
+// Output: Hello Sahithya
 
 // Explanation:
 // name gets "Riya".
@@ -168,13 +151,11 @@ function greet3Error(name, message = "Hello") {
     console.log(message + " " + username);
 }
 
-greet3Error("Riya");
+greet3Error("Sahithya");
 
-// Error:
-// ReferenceError: username is not defined
+// Error: ReferenceError: username is not defined
 
-// Error Explanation:
-// The parameter is called name, not username.
+// Error Explanation: The parameter is called name, not username.
 
 
 // ✅ Solution
@@ -183,13 +164,11 @@ function greet3Correct(name, message = "Hello") {
     console.log(message + " " + name);
 }
 
-greet3Correct("Riya");
+greet3Correct("Sahithya");
 
-// Output:
-// Hello Riya
+// Output: Hello Sahithya
 
-// Solution Explanation:
-// We use the correct parameter name.
+// Solution Explanation: We use the correct parameter name.
 
 
 // ==================================================
@@ -202,8 +181,7 @@ function add2(a = 10, b = 5) {
 
 add2();
 
-// Output:
-// 15
+// Output: 15
 
 // Explanation:
 // The default values are 10 and 5.
@@ -218,11 +196,9 @@ function add2Error(a = 10, b = 5) {
 
 add2Error();
 
-// Error:
-// ReferenceError: c is not defined
+// Error: ReferenceError: c is not defined
 
-// Error Explanation:
-// c is not defined.
+// Error Explanation: c is not defined.
 
 
 // ✅ Solution
@@ -233,11 +209,10 @@ function add2Correct(a = 10, b = 5) {
 
 add2Correct();
 
-// Output:
-// 15
+// Output: 15
 
-// Solution Explanation:
-// We use the correct default parameters.
+
+// Solution Explanation: We use the correct default parameters.
 
 
 // ==================================================
@@ -254,8 +229,7 @@ function greet4(name = getName()) {
 
 greet4();
 
-// Output:
-// Hello Guest
+// Output:  Hello Guest
 
 // Explanation:
 // getName() gives "Guest".
@@ -274,11 +248,9 @@ function greet4Error(name = getUserName()) {
 
 greet4Error();
 
-// Error:
-// ReferenceError: getUserName is not defined
+// Error: ReferenceError: getUserName is not defined
 
-// Error Explanation:
-// There is no function called getUserName().
+// Error Explanation: There is no function called getUserName().
 
 
 // ✅ Solution
@@ -293,11 +265,9 @@ function greet4Correct(name = getNameCorrect()) {
 
 greet4Correct();
 
-// Output:
-// Hello Guest
+// Output: Hello Guest
 
-// Solution Explanation:
-// We call the function that actually exists.
+// Solution Explanation:  We call the function that actually exists.
 
 
 // ==================================================
@@ -310,8 +280,7 @@ function multiply(a = 5, b = 2 + 3) {
 
 multiply();
 
-// Output:
-// 25
+// Output: 25
 
 // Explanation:
 // b gets 2 + 3, which is 5.
@@ -326,11 +295,9 @@ function multiplyError(a = 5, b = 2 + x) {
 
 multiplyError();
 
-// Error:
-// ReferenceError: x is not defined
+// Error: ReferenceError: x is not defined
 
-// Error Explanation:
-// x does not exist in the program.
+// Error Explanation: x does not exist in the program.
 
 
 // ✅ Solution
@@ -341,11 +308,10 @@ function multiplyCorrect(a = 5, b = 2 + 3) {
 
 multiplyCorrect();
 
-// Output:
-// 25
+// Output: 25
 
-// Solution Explanation:
-// We used values that are defined.
+
+// Solution Explanation:  We used values that are defined.
 
 
 // ==================================================
@@ -358,11 +324,9 @@ function greet5(name = "Guest") {
 
 greet5(undefined);
 
-// Output:
-// Guest
-
-// Explanation:
-// Passing undefined makes JavaScript use the default value.
+// Output:Guest
+ 
+// Explanation: Passing undefined makes JavaScript use the default value.
 
 
 // ❌ Error Program
@@ -373,8 +337,7 @@ function greet5Error(name = "Guest") {
 
 greet5Error(null);
 
-// Output:
-// null
+// Output:  null
 
 // Error Explanation:
 // null is a value.
@@ -389,11 +352,9 @@ function greet5Correct(name = "Guest") {
 
 greet5Correct(undefined);
 
-// Output:
-// Guest
+// Output:  Guest
 
-// Solution Explanation:
-// undefined makes the default value "Guest" work.
+// Solution Explanation:  undefined makes the default value "Guest" work.
 
 
 // ==================================================
@@ -406,8 +367,7 @@ function greet6(name = "Guest") {
 
 greet6(null);
 
-// Output:
-// null
+// Output:  null
 
 // Explanation:
 // null is passed as the value.
@@ -422,8 +382,7 @@ function greet6Error(name = "Guest") {
 
 greet6();
 
-// Output:
-// Guest
+// Output:   Guest
 
 // Error Explanation:
 // This is not an error.
@@ -438,11 +397,9 @@ function greet6Correct(name = "Guest") {
 
 greet6Correct(null);
 
-// Output:
-// null
+// Output:  null
 
-// Solution Explanation:
-// Passing null keeps null as the value.
+// Solution Explanation:  Passing null keeps null as the value.
 
 
 // ==================================================
@@ -455,11 +412,9 @@ const greet7 = (name = "Guest") => {
 
 greet7();
 
-// Output:
-// Hello Guest
+// Output:  Hello Guest
 
-// Explanation:
-// Arrow functions can also use default parameters.
+// Explanation: Arrow functions can also use default parameters.
 
 
 // ❌ Error Program
@@ -470,8 +425,7 @@ const greet7Error = (name = "Guest") => {
 
 greet7Error();
 
-// Error:
-// ReferenceError: username is not defined
+// Error:  ReferenceError: username is not defined
 
 // Error Explanation:
 // The parameter is called name.
@@ -486,18 +440,16 @@ const greet7Correct = (name = "Guest") => {
 
 greet7Correct();
 
-// Output:
-// Hello Guest
+// Output:  Hello Guest
 
-// Solution Explanation:
-// We use the correct parameter name.
+// Solution Explanation:  We use the correct parameter name.
 
 
 // ==================================================
 // 11. DEFAULT PARAMETERS WITH MULTIPLE VALUES
 // ==================================================
 
-function student(name = "Riya", age = 20) {
+function student(name = "Sahithya", age = 20) {
     console.log(name);
     console.log(age);
 }
@@ -505,7 +457,7 @@ function student(name = "Riya", age = 20) {
 student();
 
 // Output:
-// Riya
+// Sahithya
 // 20
 
 // Explanation:
@@ -522,16 +474,14 @@ function studentError(name = "Riya", age = 20) {
 
 studentError();
 
-// Error:
-// ReferenceError: studentName is not defined
+// Error:  ReferenceError: studentName is not defined
 
-// Error Explanation:
-// The parameter is called name, not studentName.
+// Error Explanation:  The parameter is called name, not studentName.
 
 
 // ✅ Solution
 
-function studentCorrect(name = "Riya", age = 20) {
+function studentCorrect(name = "Sahithya", age = 20) {
     console.log(name);
     console.log(age);
 }
@@ -539,11 +489,10 @@ function studentCorrect(name = "Riya", age = 20) {
 studentCorrect();
 
 // Output:
-// Riya
+// Sahithya
 // 20
 
-// Solution Explanation:
-// We use the correct parameter name.
+// Solution Explanation:  We use the correct parameter name.
 
 
 // ==================================================
@@ -556,11 +505,9 @@ function showStudent(student = { name: "Guest" }) {
 
 showStudent();
 
-// Output:
-// Guest
+// Output: Guest
 
-// Explanation:
-// If no object is given, the default object is used.
+// Explanation: If no object is given, the default object is used.
 
 
 // ❌ Error Program
@@ -571,11 +518,9 @@ function showStudentError(student = { name: "Guest" }) {
 
 showStudentError();
 
-// Error:
-// Cannot read properties of undefined
+// Error:  Cannot read properties of undefined
 
-// Error Explanation:
-// age does not exist in the default object.
+// Error Explanation:  age does not exist in the default object.
 
 
 // ✅ Solution
@@ -586,11 +531,9 @@ function showStudentCorrect(student = { name: "Guest" }) {
 
 showStudentCorrect();
 
-// Output:
-// Guest
+// Output:  Guest
 
-// Solution Explanation:
-// We access the property that exists: name.
+// Solution Explanation:  We access the property that exists: name.
 
 
 // ==================================================
@@ -603,11 +546,9 @@ function showNumbers(numbers = [10, 20]) {
 
 showNumbers();
 
-// Output:
-// [10, 20]
+// Output:  [10, 20]
 
-// Explanation:
-// If no array is given, [10, 20] is used.
+// Explanation:  If no array is given, [10, 20] is used.
 
 
 // ❌ Error Program
@@ -618,11 +559,9 @@ function showNumbersError(numbers = [10, 20]) {
 
 showNumbersError();
 
-// Error:
-// ReferenceError: number is not defined
+// Error: ReferenceError: number is not defined
 
-// Error Explanation:
-// The parameter is called numbers.
+// Error Explanation:   The parameter is called numbers.
 
 
 // ✅ Solution
@@ -633,11 +572,9 @@ function showNumbersCorrect(numbers = [10, 20]) {
 
 showNumbersCorrect();
 
-// Output:
-// [10, 20]
+// Output: [10, 20]
 
-// Solution Explanation:
-// We use the correct parameter name.
+// Solution Explanation: We use the correct parameter name.
 
 
 // ==================================================
@@ -650,8 +587,7 @@ function showStudent2({ name = "Guest" } = {}) {
 
 showStudent2();
 
-// Output:
-// Guest
+// Output:  Guest
 
 // Explanation:
 // The default empty object is used.
@@ -666,11 +602,9 @@ function showStudent2Error({ name = "Guest" } = {}) {
 
 showStudent2Error();
 
-// Error:
-// ReferenceError: studentName is not defined
+// Error: ReferenceError: studentName is not defined
 
-// Error Explanation:
-// The destructured variable is called name.
+// Error Explanation:  The destructured variable is called name.
 
 
 // ✅ Solution
@@ -681,11 +615,9 @@ function showStudent2Correct({ name = "Guest" } = {}) {
 
 showStudent2Correct();
 
-// Output:
-// Guest
+// Output:  Guest
 
-// Solution Explanation:
-// We use the correct variable name: name.
+// Solution Explanation:  We use the correct variable name: name.
 
 
 // ==================================================
@@ -698,12 +630,12 @@ function greet8(name = "Guest") {
 
 greet8();
 greet8(undefined);
-greet8("Riya");
+greet8("Sahithya");
 
 // Output:
 // Guest
 // Guest
-// Riya
+// Sahithya
 
 // Explanation:
 // No value → Guest.
@@ -717,10 +649,9 @@ function greet8Error(name = "Guest") {
     console.log(name);
 }
 
-greet8Error(undefined, "Riya");
+greet8Error(undefined, "Sahithya");
 
-// Output:
-// Guest
+// Output:  Guest
 
 // Error Explanation:
 // The second value is ignored because the function
@@ -733,10 +664,9 @@ function greet8Correct(name = "Guest") {
     console.log(name);
 }
 
-greet8Correct("Riya");
+greet8Correct("Sahithya");
 
-// Output:
-// Riya
+// Output:  Sahithya
 
 // Solution Explanation:
 // We pass the value to the correct parameter.
