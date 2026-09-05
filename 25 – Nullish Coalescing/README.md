@@ -8,7 +8,7 @@
 
 ## 🤔 Why Do We Use It?
 
-- To give a default value
+- To give a default value 
 - To handle `null`
 - To handle `undefined`
 - To avoid unwanted `undefined` values
