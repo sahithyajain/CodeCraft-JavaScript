@@ -9,11 +9,9 @@ let numbers = [10, 20, 30];
 
 console.log(...numbers);
 
-// Output:
-// 10 20 30
+// Output:  10 20 30
 
-// Explanation:
-// The spread operator (...) spreads all array values.
+// Explanation:  The spread operator (...) spreads all array values.
 
 
 // ==================================================
@@ -26,11 +24,9 @@ let copy = [...numbers2];
 
 console.log(copy);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Explanation:
-// ...numbers2 copies all values into a new array.
+// Explanation:  ...numbers2 copies all values into a new array.
 
 
 // ❌ Error Program
@@ -41,11 +37,9 @@ let copyError = [numbers2Error];
 
 console.log(copyError);
 
-// Output:
-// [[10, 20, 30]]
+// Output:  [[10, 20, 30]]
 
-// Error Explanation:
-// Without ..., the whole array becomes one item inside another array.
+// Error Explanation:   Without ..., the whole array becomes one item inside another array.
 
 
 // ✅ Solution
@@ -56,11 +50,9 @@ let copyCorrect = [...numbers2Correct];
 
 console.log(copyCorrect);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Solution Explanation:
-// ... spreads the values, so we get a normal copy.
+// Solution Explanation:  ... spreads the values, so we get a normal copy.
 
 
 // ==================================================
@@ -74,11 +66,9 @@ let result = [...a, ...b];
 
 console.log(result);
 
-// Output:
-// [10, 20, 30, 40]
+// Output:  [10, 20, 30, 40]
 
-// Explanation:
-// ... spreads the values of both arrays into one array.
+// Explanation:  ... spreads the values of both arrays into one array.
 
 
 // ❌ Error Program
@@ -90,8 +80,7 @@ let resultError = [aError, bError];
 
 console.log(resultError);
 
-// Output:
-// [[10, 20], [30, 40]]
+// Output: [[10, 20], [30, 40]]
 
 // Error Explanation:
 // Without spread, the two arrays become two items
@@ -107,11 +96,9 @@ let resultCorrect = [...aCorrect, ...bCorrect];
 
 console.log(resultCorrect);
 
-// Output:
-// [10, 20, 30, 40]
+// Output: [10, 20, 30, 40]
 
-// Solution Explanation:
-// Spread puts all values into the new array.
+// Solution Explanation:  Spread puts all values into the new array.
 
 
 // ==================================================
@@ -124,8 +111,7 @@ let result3 = [10, ...numbers3, 40];
 
 console.log(result3);
 
-// Output:
-// [10, 20, 30, 40]
+// Output: [10, 20, 30, 40]
 
 // Explanation:
 // Spread copies the old values.
@@ -140,11 +126,9 @@ let result3Error = [10, numbers3Error, 40];
 
 console.log(result3Error);
 
-// Output:
-// [10, [20, 30], 40]
+// Output:  [10, [20, 30], 40]
 
-// Error Explanation:
-// Without spread, the array becomes one item.
+// Error Explanation:  Without spread, the array becomes one item.
 
 
 // ✅ Solution
@@ -155,11 +139,9 @@ let result3Correct = [10, ...numbers3Correct, 40];
 
 console.log(result3Correct);
 
-// Output:
-// [10, 20, 30, 40]
+// Output:  [10, 20, 30, 40]
 
-// Solution Explanation:
-// Spread adds the individual values instead of the whole array.
+// Solution Explanation:  Spread adds the individual values instead of the whole array.
 
 
 // ==================================================
@@ -170,11 +152,9 @@ let word = "Hello";
 
 console.log([...word]);
 
-// Output:
-// ["H", "e", "l", "l", "o"]
+// Output:  ["H", "e", "l", "l", "o"]
 
-// Explanation:
-// Spread separates the string into individual characters.
+// Explanation:   Spread separates the string into individual characters.
 
 
 // ❌ Error Program
@@ -183,11 +163,9 @@ let wordError = "Hello";
 
 console.log([wordError]);
 
-// Output:
-// ["Hello"]
+// Output:  ["Hello"]
 
-// Error Explanation:
-// Without spread, the whole string is one item.
+// Error Explanation:  Without spread, the whole string is one item.
 
 
 // ✅ Solution
@@ -196,11 +174,9 @@ let wordCorrect = "Hello";
 
 console.log([...wordCorrect]);
 
-// Output:
-// ["H", "e", "l", "l", "o"]
+// Output:  ["H", "e", "l", "l", "o"]
 
-// Solution Explanation:
-// Spread separates each character.
+// Solution Explanation:   Spread separates each character.
 
 
 // ==================================================
@@ -208,8 +184,8 @@ console.log([...wordCorrect]);
 // ==================================================
 
 let student = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let copyStudent = { ...student };
@@ -217,25 +193,23 @@ let copyStudent = { ...student };
 console.log(copyStudent);
 
 // Output:
-// { name: "Riya", age: 20 }
+// { name: "Sahithya", age: 24 }
 
-// Explanation:
-// Spread copies the properties of the object.
+// Explanation:  Spread copies the properties of the object.
 
 
 // ❌ Error Program
 
 let studentError = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let copyStudentError = { studentError };
 
 console.log(copyStudentError);
 
-// Output:
-// { studentError: { name: "Riya", age: 20 } }
+// Output: { studentError: { name: "Sahithya", age: 24 } }
 
 // Error Explanation:
 // Without spread, the object becomes a property
@@ -245,19 +219,17 @@ console.log(copyStudentError);
 // ✅ Solution
 
 let studentCorrect = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let copyStudentCorrect = { ...studentCorrect };
 
 console.log(copyStudentCorrect);
 
-// Output:
-// { name: "Riya", age: 20 }
+// Output: { name: "Sahithya", age: 24 }
 
-// Solution Explanation:
-// Spread copies the object's properties directly.
+// Solution Explanation:  Spread copies the object's properties directly.
 
 
 // ==================================================
@@ -265,11 +237,11 @@ console.log(copyStudentCorrect);
 // ==================================================
 
 let student2 = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let details = {
-    age: 20
+    age: 24
 };
 
 let result4 = {
@@ -279,21 +251,19 @@ let result4 = {
 
 console.log(result4);
 
-// Output:
-// { name: "Riya", age: 20 }
+// Output:  { name: "Sahithya", age: 24 }
 
-// Explanation:
-// Spread combines the properties of both objects.
+// Explanation:  Spread combines the properties of both objects.
 
 
 // ❌ Error Program
 
 let student2Error = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let detailsError = {
-    age: 20
+    age: 24
 };
 
 let result4Error = {
@@ -303,21 +273,19 @@ let result4Error = {
 
 console.log(result4Error);
 
-// Output:
-// { student2Error: { name: "Riya" }, detailsError: { age: 20 } }
+// Output: { student2Error: { name: "Sahithya" }, detailsError: { age: 24 } }
 
-// Error Explanation:
-// Without spread, the objects become separate properties.
+// Error Explanation:  Without spread, the objects become separate properties.
 
 
 // ✅ Solution
 
 let student2Correct = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let detailsCorrect = {
-    age: 20
+    age: 24
 };
 
 let result4Correct = {
@@ -327,11 +295,9 @@ let result4Correct = {
 
 console.log(result4Correct);
 
-// Output:
-// { name: "Riya", age: 20 }
+// Output: { name: "Sahithya", age: 24 }
 
-// Solution Explanation:
-// Spread puts all properties into one object.
+// Solution Explanation:  Spread puts all properties into one object.
 
 
 // ==================================================
@@ -339,18 +305,17 @@ console.log(result4Correct);
 // ==================================================
 
 let student3 = {
-    name: "Riya"
+    name: "Sahithya
 };
 
 let result5 = {
     ...student3,
-    age: 20
+    age: 24
 };
 
 console.log(result5);
 
-// Output:
-// { name: "Riya", age: 20 }
+// Output: { name: "Sahithya", age: 24 }
 
 // Explanation:
 // Spread copies the old property.
@@ -360,41 +325,37 @@ console.log(result5);
 // ❌ Error Program
 
 let student3Error = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let result5Error = {
     student3Error,
-    age: 20
+    age: 24
 };
 
 console.log(result5Error);
 
-// Output:
-// { student3Error: { name: "Riya" }, age: 20 }
+// Output: { student3Error: { name: "Sahithya" }, age: 24 }
 
-// Error Explanation:
-// Without spread, student3 becomes a nested property.
+// Error Explanation:  Without spread, student3 becomes a nested property.
 
 
 // ✅ Solution
 
 let student3Correct = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let result5Correct = {
     ...student3Correct,
-    age: 20
+    age: 24
 };
 
 console.log(result5Correct);
 
-// Output:
-// { name: "Riya", age: 20 }
+// Output: { name: "Sahithya", age: 24 }
 
-// Solution Explanation:
-// Spread copies the existing properties correctly.
+// Solution Explanation: Spread copies the existing properties correctly.
 
 
 // ==================================================
@@ -402,8 +363,8 @@ console.log(result5Correct);
 // ==================================================
 
 let student4 = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let updated = {
@@ -413,8 +374,7 @@ let updated = {
 
 console.log(updated);
 
-// Output:
-// { name: "Riya", age: 21 }
+// Output: { name: "Sahithya", age: 21 }
 
 // Explanation:
 // Spread copies the object.
@@ -424,8 +384,8 @@ console.log(updated);
 // ❌ Error Program
 
 let student4Error = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let updatedError = {
@@ -435,8 +395,7 @@ let updatedError = {
 
 console.log(updatedError);
 
-// Output:
-// { age: 20, name: "Riya" }
+// Output:  { age: 24, name: "Sahithya" }
 
 // Error Explanation:
 // The old object comes after age.
@@ -446,8 +405,8 @@ console.log(updatedError);
 // ✅ Solution
 
 let student4Correct = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let updatedCorrect = {
@@ -457,8 +416,7 @@ let updatedCorrect = {
 
 console.log(updatedCorrect);
 
-// Output:
-// { name: "Riya", age: 21 }
+// Output: { name: "Sahithya", age: 21 }
 
 // Solution Explanation:
 // Put the new property after spread.
@@ -477,8 +435,7 @@ let numbers5 = [10, 20, 30];
 
 console.log(add(...numbers5));
 
-// Output:
-// 60
+// Output: 60
 
 // Explanation:
 // Spread sends the array values as separate arguments.
@@ -495,8 +452,7 @@ let numbers5Error = [10, 20, 30];
 
 console.log(addError(numbers5Error));
 
-// Output:
-// 10,20,30undefinedundefined
+// Output:  10,20,30undefinedundefined
 
 // Error Explanation:
 // The whole array is passed as one argument.
@@ -513,11 +469,9 @@ let numbers5Correct = [10, 20, 30];
 
 console.log(addCorrect(...numbers5Correct));
 
-// Output:
-// 60
+// Output:  60
 
-// Solution Explanation:
-// Spread passes each array value separately.
+// Solution Explanation:  Spread passes each array value separately.
 
 
 // ==================================================
@@ -528,8 +482,7 @@ let numbers6 = [10, 50, 20];
 
 console.log(Math.max(...numbers6));
 
-// Output:
-// 50
+// Output:  50
 
 // Explanation:
 // Spread passes 10, 50, and 20 to Math.max().
@@ -542,8 +495,7 @@ let numbers6Error = [10, 50, 20];
 
 console.log(Math.max(numbers6Error));
 
-// Output:
-// NaN
+// Output: NaN
 
 // Error Explanation:
 // Math.max() expects separate numbers,
@@ -556,11 +508,9 @@ let numbers6Correct = [10, 50, 20];
 
 console.log(Math.max(...numbers6Correct));
 
-// Output:
-// 50
+// Output: 50
 
-// Solution Explanation:
-// Spread passes the numbers separately.
+// Solution Explanation:  Spread passes the numbers separately.
 
 
 // ==================================================
@@ -575,8 +525,7 @@ copy2.push(30);
 
 console.log(copy2);
 
-// Output:
-// [10, 20, 30]
+// Output:   [10, 20, 30]
 
 // Explanation:
 // First, spread creates a copy.
@@ -593,8 +542,7 @@ copy2Error.push(30);
 
 console.log(numbers7Error);
 
-// Output:
-// [10, 20, 30]
+// Output: [10, 20, 30]
 
 // Error Explanation:
 // Both variables point to the same array.
@@ -631,11 +579,9 @@ let result6 = [...numbers8];
 
 console.log(result6);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Explanation:
-// Spread converts the Set values into an array.
+// Explanation:  Spread converts the Set values into an array.
 
 
 // ❌ Error Program
@@ -646,11 +592,9 @@ let result6Error = [numbers8Error];
 
 console.log(result6Error);
 
-// Output:
-// [Set(3) {10, 20, 30}]
+// Output:  [Set(3) {10, 20, 30}]
 
-// Error Explanation:
-// Without spread, the whole Set becomes one array item.
+// Error Explanation:  Without spread, the whole Set becomes one array item.
 
 
 // ✅ Solution
@@ -661,11 +605,9 @@ let result6Correct = [...numbers8Correct];
 
 console.log(result6Correct);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Solution Explanation:
-// Spread takes each Set value and puts it into the array.
+// Solution Explanation:  Spread takes each Set value and puts it into the array.
 
 
 // ==================================================
@@ -685,8 +627,7 @@ show(...numbers9);
 // 10
 // 20
 
-// Explanation:
-// Spread passes the two array values as two arguments.
+// Explanation: Spread passes the two array values as two arguments.
 
 
 // ❌ Error Program
@@ -724,8 +665,7 @@ showCorrect(...numbers9Correct);
 // 10
 // 20
 
-// Solution Explanation:
-// Spread passes each value separately.
+// Solution Explanation:  Spread passes each value separately.
 
 
 // ==================================================
@@ -740,11 +680,9 @@ let copy3 = [...numbers10];
 
 console.log(copy3);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Explanation:
-// Spread (...) spreads the values.
+// Explanation:  Spread (...) spreads the values.
 
 
 // Rest
@@ -755,11 +693,9 @@ function showValues(...values) {
 
 showValues(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output: [10, 20, 30]
 
-// Explanation:
-// Rest (...) collects values into an array.
+// Explanation:  Rest (...) collects values into an array.
 
 
 // ❌ Error Program
@@ -770,8 +706,7 @@ function showError2(...values) {
 
 showError2(10, 20, 30);
 
-// Output:
-// 10 20 30
+// Output:  10 20 30
 
 // Error Explanation:
 // This is not actually an error.
@@ -787,8 +722,7 @@ function showCorrect2(...values) {
 
 showCorrect2(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output:   [10, 20, 30]
 
 // Solution Explanation:
 // Rest collects the values into one array.
