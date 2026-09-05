@@ -246,10 +246,10 @@ CodeCraft-JavaScript/
 | Template Literals      | ✅      |
 | Destructuring          | ✅      |
 | Spread Operator        | ✅      |
-| Rest Operator          | ⏳      |
-| Default Parameters     | ⏳      |
-| Optional Chaining      | ⏳      |
-| Nullish Coalescing     | ⏳      |
+| Rest Operator          | ✅      |
+| Default Parameters     | ✅      |
+| Optional Chaining      | ✅      |
+| Nullish Coalescing     | ✅      |
 | Modules                | ⏳      |
 | JSON                   | ⏳      |
 | BOM                    | ⏳      |
