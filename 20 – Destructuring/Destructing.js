@@ -49,11 +49,9 @@ let [firstError, secondError] = fruit;
 
 console.log(firstError);
 
-// Error:
-// ReferenceError: fruit is not defined
+// Error: ReferenceError: fruit is not defined
 
-// Error Explanation:
-// The array name is fruits, but we used fruit.
+// Error Explanation:  The array name is fruits, but we used fruit.
 
 
 // ✅ Solution
@@ -64,11 +62,9 @@ let [firstCorrect, secondCorrect] = fruitsCorrect;
 
 console.log(firstCorrect);
 
-// Output:
-// Apple
+// Output: Apple
 
-// Solution Explanation:
-// We used the correct array name.
+// Solution Explanation:  We used the correct array name.
 
 
 // ==================================================
@@ -76,8 +72,8 @@ console.log(firstCorrect);
 // ==================================================
 
 let student = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let { name, age } = student;
@@ -86,12 +82,11 @@ console.log(name);
 console.log(age);
 
 // Output:
-// Riya
-// 20
+// Sahithya
+// 24
 
 // Explanation:
-// name gets Riya.
-// age gets 20.
+// name gets Sahithya and age gets 24.
 
 
 // ❌ Error Program
@@ -105,8 +100,7 @@ let { nameError, ageError } = studentError;
 
 console.log(nameError);
 
-// Output:
-// undefined
+// Output:  undefined
 
 // Error Explanation:
 // There is no property called nameError.
@@ -116,8 +110,8 @@ console.log(nameError);
 // ✅ Solution
 
 let studentCorrect = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let { name: studentName, age: studentAge } = studentCorrect;
@@ -126,11 +120,10 @@ console.log(studentName);
 console.log(studentAge);
 
 // Output:
-// Riya
-// 20
+// Sahithya
+// 24
 
-// Solution Explanation:
-// We used the correct object properties.
+// Solution Explanation:  We used the correct object properties.
 
 
 // ==================================================
@@ -138,15 +131,14 @@ console.log(studentAge);
 // ==================================================
 
 let student2 = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let { name: studentName2 } = student2;
 
 console.log(studentName2);
 
-// Output:
-// Riya
+// Output:  Sahithya
 
 // Explanation:
 // name is the object property.
@@ -163,8 +155,7 @@ let { name: studentNameError } = studentError2;
 
 console.log(studentName);
 
-// Error:
-// ReferenceError: studentName is not defined
+// Error:  ReferenceError: studentName is not defined
 
 // Error Explanation:
 // We created studentNameError,
@@ -174,18 +165,16 @@ console.log(studentName);
 // ✅ Solution
 
 let studentCorrect2 = {
-    name: "Riya"
+    name: "Sahithya"
 };
 
 let { name: studentNameCorrect } = studentCorrect2;
 
 console.log(studentNameCorrect);
 
-// Output:
-// Riya
+// Output:  Sahithya
 
-// Solution Explanation:
-// We used the variable name that we created.
+// Solution Explanation:  We used the variable name that we created.
 
 
 // ==================================================
@@ -216,8 +205,7 @@ let [firstError2, thirdError2] = numbersError2;
 
 console.log(thirdError2);
 
-// Output:
-// 20
+// Output: 20
 
 // Error Explanation:
 // Without an empty space, the second variable
@@ -232,11 +220,9 @@ let [firstCorrect2, , thirdCorrect2] = numbersCorrect2;
 
 console.log(thirdCorrect2);
 
-// Output:
-// 30
+// Output:  30
 
-// Solution Explanation:
-// The empty space skips the second value.
+// Solution Explanation:   The empty space skips the second value.
 
 
 // ==================================================
@@ -267,11 +253,9 @@ let [firstError3, secondError3];
 
 console.log(secondError3);
 
-// Error:
-// SyntaxError
+// Error:  SyntaxError
 
-// Error Explanation:
-// Destructuring without a value is not written correctly.
+// Error Explanation:  Destructuring without a value is not written correctly.
 
 
 // ✅ Solution
@@ -282,11 +266,9 @@ let [firstCorrect3, secondCorrect3 = 20] = numbersCorrect3;
 
 console.log(secondCorrect3);
 
-// Output:
-// 20
+// Output:  20
 
-// Solution Explanation:
-// We gave 20 as the default value.
+// Solution Explanation:  We gave 20 as the default value.
 
 
 // ==================================================
@@ -317,11 +299,9 @@ let [firstError4, ..restError] = numbersError4;
 
 console.log(restError);
 
-// Error:
-// SyntaxError
+// Error:  SyntaxError
 
-// Error Explanation:
-// Rest uses three dots (...), not two dots.
+// Error Explanation:   Rest uses three dots (...), not two dots.
 
 
 // ✅ Solution
@@ -332,11 +312,9 @@ let [firstCorrect4, ...restCorrect] = numbersCorrect4;
 
 console.log(restCorrect);
 
-// Output:
-// [20, 30]
+// Output:   [20, 30]
 
-// Solution Explanation:
-// We used three dots (...) to collect the remaining values.
+// Solution Explanation:   We used three dots (...) to collect the remaining values.
 
 
 // ==================================================
@@ -344,8 +322,8 @@ console.log(restCorrect);
 // ==================================================
 
 let student3 = {
-    name: "Riya",
-    age: 20,
+    name: "Sahithya",
+    age: 24,
     city: "Bangalore"
 };
 
@@ -355,8 +333,8 @@ console.log(studentName3);
 console.log(details);
 
 // Output:
-// Riya
-// { age: 20, city: "Bangalore" }
+// Sahithya
+// { age: 24, city: "Bangalore" }
 
 // Explanation:
 // studentName3 gets name.
@@ -366,37 +344,33 @@ console.log(details);
 // ❌ Error Program
 
 let studentError3 = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let { name: studentNameError3, ..detailsError } = studentError3;
 
 console.log(detailsError);
 
-// Error:
-// SyntaxError
+// Error:  SyntaxError
 
-// Error Explanation:
-// Rest needs three dots (...).
+// Error Explanation:  Rest needs three dots (...).
 
 
 // ✅ Solution
 
 let studentCorrect3 = {
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 };
 
 let { name: studentNameCorrect3, ...detailsCorrect } = studentCorrect3;
 
 console.log(detailsCorrect);
 
-// Output:
-// { age: 20 }
+// Output:  { age: 20 }
 
-// Solution Explanation:
-// Three dots collect the remaining properties.
+// Solution Explanation:  Three dots collect the remaining properties.
 
 
 // ==================================================
@@ -404,7 +378,7 @@ console.log(detailsCorrect);
 // ==================================================
 
 let student4 = {
-    name: "Riya",
+    name: "Sahithya",
     address: {
         city: "Bangalore"
     }
@@ -414,8 +388,7 @@ let { address: { city } } = student4;
 
 console.log(city);
 
-// Output:
-// Bangalore
+// Output:  Bangalore
 
 // Explanation:
 // city is inside the address object.
@@ -425,7 +398,7 @@ console.log(city);
 // ❌ Error Program
 
 let studentError4 = {
-    name: "Riya",
+    name: "Sahithya",
     address: {
         city: "Bangalore"
     }
@@ -435,17 +408,15 @@ let { address: { country } } = studentError4;
 
 console.log(country);
 
-// Output:
-// undefined
+// Output:  undefined
 
-// Error Explanation:
-// There is no country property inside address.
+// Error Explanation:  There is no country property inside address.
 
 
 // ✅ Solution
 
 let studentCorrect4 = {
-    name: "Riya",
+    name: "Sahithya",
     address: {
         city: "Bangalore"
     }
@@ -455,11 +426,9 @@ let { address: { city: cityCorrect } } = studentCorrect4;
 
 console.log(cityCorrect);
 
-// Output:
-// Bangalore
+// Output:  Bangalore
 
-// Solution Explanation:
-// We used the property that exists: city.
+// Solution Explanation:   We used the property that exists: city.
 
 
 // ==================================================
@@ -492,11 +461,9 @@ let [firstError5, [secondError5, thirdError5]] = numbersError5;
 
 console.log(fourthError);
 
-// Error:
-// ReferenceError: fourthError is not defined
+// Error:  ReferenceError: fourthError is not defined
 
-// Error Explanation:
-// We tried to use a variable that was never created.
+// Error Explanation:   We tried to use a variable that was never created.
 
 
 // ✅ Solution
@@ -514,8 +481,7 @@ console.log(thirdCorrect5);
 // 20
 // 30
 
-// Solution Explanation:
-// We use the variables created by destructuring.
+// Solution Explanation:  We use the variables created by destructuring.
 
 
 // ==================================================
@@ -528,22 +494,18 @@ function showStudent({ name, age }) {
 }
 
 showStudent({
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 });
 
 // Output:
-// Riya
-// 20
+// Sahithya
+// 24
 
-// Explanation:
-// The function directly takes name and age
-// from the object.
+// Explanation:  The function directly takes name and age from the object.
 
 
-/*
-❌ Error Program
-*/
+/* ❌ //Error Program */
 
 function showStudentError({ name, age }) {
     console.log(name);
@@ -552,11 +514,9 @@ function showStudentError({ name, age }) {
 
 showStudentError();
 
-// Error:
-// Cannot destructure property 'name' of 'undefined'
+// Error:  Cannot destructure property 'name' of 'undefined'
 
-// Error Explanation:
-// No object was passed to the function.
+// Error Explanation:   No object was passed to the function.
 
 
 // ✅ Solution
@@ -567,16 +527,15 @@ function showStudentCorrect({ name, age }) {
 }
 
 showStudentCorrect({
-    name: "Riya",
-    age: 20
+    name: "Sahithya",
+    age: 24
 });
 
 // Output:
-// Riya
-// 20
+// Sahithya
+// 24
 
-// Solution Explanation:
-// We passed the required object to the function.
+// Solution Explanation:   We passed the required object to the function.
 
 
 // ==================================================
@@ -589,12 +548,9 @@ function add([a, b]) {
 
 add([10, 5]);
 
-// Output:
-// 15
+// Output: 15
 
-// Explanation:
-// The function gets 10 and 5 from the array.
-// Then it adds them.
+// Explanation:  The function gets 10 and 5 from the array.  Then it adds them.
 
 
 // ❌ Error Program
@@ -605,11 +561,9 @@ function addError([a, b]) {
 
 addError();
 
-// Error:
-// Cannot destructure property
+// Error:   Cannot destructure property
 
-// Error Explanation:
-// No array was passed to the function.
+// Error Explanation:  No array was passed to the function.
 
 
 // ✅ Solution
@@ -620,11 +574,9 @@ function addCorrect([a, b]) {
 
 addCorrect([10, 5]);
 
-// Output:
-// 15
+// Output:  15
 
-// Solution Explanation:
-// We passed an array with the required values.
+// Solution Explanation:   We passed an array with the required values.
 
 
 // ==================================================
@@ -714,11 +666,9 @@ aError2 = 30;
 
 console.log(aError2);
 
-// Error:
-// Assignment to constant variable
+// Error:  Assignment to constant variable
 
-// Error Explanation:
-// const values cannot be changed after creation.
+// Error Explanation:  const values cannot be changed after creation.
 
 
 // ✅ Solution
@@ -729,11 +679,9 @@ aCorrect2 = 30;
 
 console.log(aCorrect2);
 
-// Output:
-// 30
+// Output:  30
 
-// Solution Explanation:
-// We use let because the value needs to change.
+// Solution Explanation:  We use let because the value needs to change.
 
 
 // ==================================================
@@ -768,8 +716,7 @@ let [aError3, bError3] = getNumbersError;
 
 console.log(aError3);
 
-// Error:
-// TypeError: getNumbersError is not iterable
+// Error: TypeError: getNumbersError is not iterable
 
 // Error Explanation:
 // We did not call the function.
