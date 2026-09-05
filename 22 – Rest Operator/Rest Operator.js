@@ -11,11 +11,9 @@ function show(...numbers) {
 
 show(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Explanation:
-// The rest operator (...) collects all values into an array.
+// Explanation:   The rest operator (...) collects all values into an array.
 
 
 // ❌ Error Program
@@ -26,8 +24,7 @@ function showError(...numbers) {
 
 showError(10, 20, 30);
 
-// Error:
-// ReferenceError: number is not defined
+// Error: ReferenceError: number is not defined
 
 // Error Explanation:
 // The rest parameter is called numbers,
@@ -42,11 +39,9 @@ function showCorrect(...numbers) {
 
 showCorrect(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output: [10, 20, 30]
 
-// Solution Explanation:
-// We used the correct parameter name: numbers.
+// Solution Explanation:  We used the correct parameter name: numbers.
 
 
 // ==================================================
@@ -59,11 +54,9 @@ function showTwo(...values) {
 
 showTwo(10, 20);
 
-// Output:
-// [10, 20]
+// Output:  [10, 20]
 
-// Explanation:
-// Rest collects both values into one array.
+// Explanation:  Rest collects both values into one array.
 
 
 // ❌ Error Program
@@ -74,11 +67,9 @@ function showTwoError(...values) {
 
 showTwoError(10, 20);
 
-// Error:
-// ReferenceError: value is not defined
+// Error:  ReferenceError: value is not defined
 
-// Error Explanation:
-// The parameter is called values, not value.
+// Error Explanation:  The parameter is called values, not value.
 
 
 // ✅ Solution
@@ -89,11 +80,9 @@ function showTwoCorrect(...values) {
 
 showTwoCorrect(10, 20);
 
-// Output:
-// [10, 20]
+// Output:  [10, 20]
 
-// Solution Explanation:
-// We used the correct rest parameter.
+// Solution Explanation:  We used the correct rest parameter.
 
 
 // ==================================================
@@ -106,11 +95,9 @@ function showMany(...numbers) {
 
 showMany(10, 20, 30, 40, 50);
 
-// Output:
-// [10, 20, 30, 40, 50]
+// Output:  [10, 20, 30, 40, 50]
 
-// Explanation:
-// Rest can collect any number of values.
+// Explanation:  Rest can collect any number of values.
 
 
 // ❌ Error Program
@@ -121,11 +108,9 @@ function showManyError(...numbers) {
 
 showManyError(10, 20, 30);
 
-// Error:
-// ReferenceError: number is not defined
+// Error:  ReferenceError: number is not defined
 
-// Error Explanation:
-// The parameter is called numbers.
+// Error Explanation:  The parameter is called numbers.
 
 
 // ✅ Solution
@@ -136,11 +121,9 @@ function showManyCorrect(...numbers) {
 
 showManyCorrect(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
-// Solution Explanation:
-// The rest parameter correctly collects all values.
+// Solution Explanation:  The rest parameter correctly collects all values.
 
 
 // ==================================================
@@ -172,8 +155,7 @@ function showFirstError(first, ...others) {
 
 showFirstError(10, 20, 30);
 
-// Error:
-// ReferenceError: other is not defined
+// Error:  ReferenceError: other is not defined
 
 // Error Explanation:
 // The rest parameter is called others,
@@ -193,8 +175,7 @@ showFirstCorrect(10, 20, 30);
 // 10
 // [20, 30]
 
-// Solution Explanation:
-// We used the correct rest parameter name.
+// Solution Explanation:   We used the correct rest parameter name.
 
 
 // ==================================================
@@ -213,8 +194,7 @@ function add(...numbers) {
 
 console.log(add(10, 20, 30));
 
-// Output:
-// 60
+// Output: 60
 
 // Explanation:
 // Rest collects the numbers.
@@ -235,8 +215,7 @@ function addError(...numbers) {
 
 console.log(addError(10, 20, 30));
 
-// Error:
-// ReferenceError: value is not defined
+// Error:  ReferenceError: value is not defined
 
 // Error Explanation:
 // The loop variable is called number,
@@ -257,11 +236,9 @@ function addCorrect(...numbers) {
 
 console.log(addCorrect(10, 20, 30));
 
-// Output:
-// 60
+// Output:  60
 
-// Solution Explanation:
-// We used the correct loop variable: number.
+// Solution Explanation:  We used the correct loop variable: number.
 
 
 // ==================================================
@@ -274,8 +251,7 @@ function addUsingReduce(...numbers) {
 
 console.log(addUsingReduce(10, 20, 30));
 
-// Output:
-// 60
+// Output:  60
 
 // Explanation:
 // Rest collects the numbers into an array.
@@ -290,8 +266,7 @@ function addUsingReduceError(...numbers) {
 
 console.log(addUsingReduceError(10, 20, 30));
 
-// Error:
-// ReferenceError: number is not defined
+// Error: ReferenceError: number is not defined
 
 // Error Explanation:
 // The reduce parameter is called value,
@@ -306,11 +281,9 @@ function addUsingReduceCorrect(...numbers) {
 
 console.log(addUsingReduceCorrect(10, 20, 30));
 
-// Output:
-// 60
+// Output:  60
 
-// Solution Explanation:
-// We used the correct parameter: number.
+// Solution Explanation:  We used the correct parameter: number.
 
 
 // ==================================================
@@ -321,13 +294,11 @@ function showNames(...names) {
     console.log(names);
 }
 
-showNames("Asha", "Riya", "Anu");
+showNames("Vishu", "Sahithya", "Dhar");
 
-// Output:
-// ["Asha", "Riya", "Anu"]
+// Output: ["Vishu", "Sahithya", "Dhar"]
 
-// Explanation:
-// Rest collects all the string values into an array.
+// Explanation:  Rest collects all the string values into an array.
 
 
 // ❌ Error Program
@@ -336,13 +307,11 @@ function showNamesError(...names) {
     console.log(name);
 }
 
-showNamesError("Asha", "Riya");
+showNamesError("Vishu", "Sahithya");
 
-// Error:
-// ReferenceError: name is not defined
+// Error: ReferenceError: name is not defined
 
-// Error Explanation:
-// The parameter is called names.
+// Error Explanation:  The parameter is called names.
 
 
 // ✅ Solution
@@ -351,13 +320,12 @@ function showNamesCorrect(...names) {
     console.log(names);
 }
 
-showNamesCorrect("Asha", "Riya");
+showNamesCorrect("Vishu", "Sahithya");
 
 // Output:
-// ["Asha", "Riya"]
+// ["Vishu", "Sahithya"]
 
-// Solution Explanation:
-// We used the correct parameter name.
+// Solution Explanation:  We used the correct parameter name.
 
 
 // ==================================================
@@ -370,11 +338,9 @@ function showValues(...values) {
 
 showValues(10, "Hello", true);
 
-// Output:
-// [10, "Hello", true]
+// Output:  [10, "Hello", true]
 
-// Explanation:
-// Rest can collect different types of values.
+// Explanation:  Rest can collect different types of values.
 
 
 // ❌ Error Program
@@ -385,11 +351,9 @@ function showValuesError(...values) {
 
 showValuesError(10, "Hello", true);
 
-// Error:
-// ReferenceError: value is not defined
+// Error:  ReferenceError: value is not defined
 
-// Error Explanation:
-// The parameter is called values.
+// Error Explanation:  The parameter is called values.
 
 
 // ✅ Solution
@@ -400,11 +364,9 @@ function showValuesCorrect(...values) {
 
 showValuesCorrect(10, "Hello", true);
 
-// Output:
-// [10, "Hello", true]
+// Output:  [10, "Hello", true]
 
-// Solution Explanation:
-// The correct rest parameter is used.
+// Solution Explanation:  The correct rest parameter is used.
 
 
 // ==================================================
@@ -417,8 +379,7 @@ const addArrow = (...numbers) => {
 
 console.log(addArrow(10, 20));
 
-// Output:
-// 30
+// Output: 30
 
 // Explanation:
 // The rest operator collects the values.
@@ -433,11 +394,9 @@ const addArrowError = (...numbers) => {
 
 console.log(addArrowError(10, 20));
 
-// Error:
-// ReferenceError: number is not defined
+// Error:  ReferenceError: number is not defined
 
-// Error Explanation:
-// The value should be taken from the numbers array.
+// Error Explanation:  The value should be taken from the numbers array.
 
 
 // ✅ Solution
@@ -448,11 +407,9 @@ const addArrowCorrect = (...numbers) => {
 
 console.log(addArrowCorrect(10, 20));
 
-// Output:
-// 30
+// Output:  30
 
-// Solution Explanation:
-// We use the values stored inside numbers.
+// Solution Explanation:  We use the values stored inside numbers.
 
 
 // ==================================================
@@ -483,11 +440,9 @@ let [firstError, ..restError] = numbers2Error;
 
 console.log(restError);
 
-// Error:
-// SyntaxError
+// Error: SyntaxError
 
-// Error Explanation:
-// Rest needs three dots (...), not two dots.
+// Error Explanation:   Rest needs three dots (...), not two dots.
 
 
 // ✅ Solution
@@ -498,11 +453,9 @@ let [firstCorrect, ...restCorrect] = numbers2Correct;
 
 console.log(restCorrect);
 
-// Output:
-// [20, 30, 40]
+// Output: [20, 30, 40]
 
-// Solution Explanation:
-// We used three dots for the rest operator.
+// Solution Explanation:   We used three dots for the rest operator.
 
 
 // ==================================================
@@ -510,8 +463,8 @@ console.log(restCorrect);
 // ==================================================
 
 let student = {
-    name: "Riya",
-    age: 20,
+    name: "Sahithya",
+    age: 24,
     city: "Bangalore"
 };
 
@@ -521,8 +474,8 @@ console.log(name);
 console.log(details);
 
 // Output:
-// Riya
-// { age: 20, city: "Bangalore" }
+// Sahithya
+// { age: 24, city: "Bangalore" }
 
 // Explanation:
 // name gets the name property.
@@ -532,8 +485,8 @@ console.log(details);
 // ❌ Error Program
 
 let studentError = {
-    name: "Riya",
-    age: 20,
+    name: "Sahithya",
+    age: 24,
     city: "Bangalore"
 };
 
@@ -541,8 +494,7 @@ let { nameError, ...detailsError } = studentError;
 
 console.log(nameError);
 
-// Output:
-// undefined
+// Output:  undefined
 
 // Error Explanation:
 // There is no property called nameError.
@@ -552,8 +504,8 @@ console.log(nameError);
 // ✅ Solution
 
 let studentCorrect = {
-    name: "Riya",
-    age: 20,
+    name: "Sahithya",
+    age: 24,
     city: "Bangalore"
 };
 
@@ -563,7 +515,7 @@ console.log(studentName);
 console.log(studentDetails);
 
 // Output:
-// Riya
+// Sahithya
 // { age: 20, city: "Bangalore" }
 
 // Solution Explanation:
@@ -599,11 +551,9 @@ let [...rest3Error, last3Error] = numbers3Error;
 
 console.log(rest3Error);
 
-// Error:
-// SyntaxError
+// Error: SyntaxError
 
-// Error Explanation:
-// The rest element must be the last element.
+// Error Explanation:   The rest element must be the last element.
 
 
 // ✅ Solution
@@ -651,11 +601,9 @@ showLast(10, 20, 30);
 //     console.log(last);
 // }
 
-// Error:
-// SyntaxError: Rest parameter must be last
+// Error: SyntaxError: Rest parameter must be last
 
-// Error Explanation:
-// A parameter cannot come after the rest parameter.
+// Error Explanation:  A parameter cannot come after the rest parameter.
 
 
 // ✅ Solution
@@ -700,11 +648,9 @@ let numbers4 = [10, 20, 30];
 
 console.log(...numbers4);
 
-// Output:
-// 10 20 30
+// Output:  10 20 30
 
-// Explanation:
-// Spread takes the values out of the array.
+// Explanation:  Spread takes the values out of the array.
 
 
 // ❌ Error Program
@@ -715,8 +661,7 @@ function collectError(...values) {
 
 collectError(10, 20, 30);
 
-// Output:
-// 10 20 30
+// Output:  10 20 30
 
 // Error Explanation:
 // This is not an error.
@@ -732,8 +677,7 @@ function collectCorrect(...values) {
 
 collectCorrect(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
 // Solution Explanation:
 // Rest collects the values into an array.
@@ -757,8 +701,7 @@ showFlexible(10, 20, 30);
 // [10, 20]
 // [10, 20, 30]
 
-// Explanation:
-// Rest allows the function to accept any number of values.
+// Explanation:  Rest allows the function to accept any number of values.
 
 
 // ❌ Error Program
@@ -769,8 +712,7 @@ function showFlexibleError(numbers) {
 
 showFlexibleError(10, 20, 30);
 
-// Output:
-// 10
+// Output:  10
 
 // Error Explanation:
 // Without Rest, only the first argument is stored
@@ -785,8 +727,7 @@ function showFlexibleCorrect(...numbers) {
 
 showFlexibleCorrect(10, 20, 30);
 
-// Output:
-// [10, 20, 30]
+// Output:  [10, 20, 30]
 
 // Solution Explanation:
 // Rest collects all the arguments.
