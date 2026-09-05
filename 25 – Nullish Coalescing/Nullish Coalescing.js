@@ -9,8 +9,7 @@ let name = null;
 
 console.log(name ?? "Guest");
 
-// Output:
-// Guest
+// Output: Guest
 
 // Explanation:
 // If name is null, ?? uses "Guest" as the default value.
@@ -22,8 +21,7 @@ let nameError;
 
 console.log(nameError.toUpperCase());
 
-// Error:
-// TypeError
+// Error:  TypeError
 
 // Error Explanation:
 // nameError is undefined, so we cannot use toUpperCase().
@@ -35,11 +33,9 @@ let nameCorrect;
 
 console.log((nameCorrect ?? "Guest").toUpperCase());
 
-// Output:
-// GUEST
+// Output: GUEST
 
-// Solution Explanation:
-// ?? gives "Guest" when the value is undefined.
+// Solution Explanation: ?? gives "Guest" when the value is undefined.
 
 
 // ==================================================
@@ -50,11 +46,9 @@ let name2;
 
 console.log(name2 ?? "Guest");
 
-// Output:
-// Guest
+// Output:  Guest
 
-// Explanation:
-// name2 is undefined, so "Guest" is used.
+// Explanation: name2 is undefined, so "Guest" is used.
 
 
 // ❌ Error Program
@@ -63,11 +57,9 @@ let name2Error;
 
 console.log(name2Error.length);
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// undefined does not have a length property.
+// Error Explanation: undefined does not have a length property.
 
 
 // ✅ Solution
@@ -76,26 +68,22 @@ let name2Correct;
 
 console.log((name2Correct ?? "Guest").length);
 
-// Output:
-// 5
+// Output: 5
 
-// Solution Explanation:
-// "Guest" is used instead of undefined.
+// Solution Explanation:  "Guest" is used instead of undefined.
 
 
 // ==================================================
 // 3. WITH A NORMAL VALUE
 // ==================================================
 
-let name3 = "Riya";
+let name3 = "Sahithya";
 
 console.log(name3 ?? "Guest");
 
-// Output:
-// Riya
+// Output: Sahithya
 
-// Explanation:
-// Riya is not null or undefined, so it is kept.
+// Explanation:  Sahithya is not null or undefined, so it is kept.
 
 
 // ❌ Error Program
@@ -104,24 +92,20 @@ let name3Error = undefined;
 
 console.log(name3Error.toUpperCase());
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// undefined cannot be used with toUpperCase().
+// Error Explanation: undefined cannot be used with toUpperCase().
 
 
 // ✅ Solution
 
-let name3Correct = "Riya";
+let name3Correct = "Sahithya";
 
 console.log((name3Correct ?? "Guest").toUpperCase());
 
-// Output:
-// RIYA
+// Output: Sahithya
 
-// Solution Explanation:
-// Since Riya exists, ?? keeps it.
+// Solution Explanation: Since Riya exists, ?? keeps it.
 
 
 // ==================================================
@@ -132,11 +116,9 @@ let age = null;
 
 console.log(age ?? 18);
 
-// Output:
-// 18
+// Output: 18
 
-// Explanation:
-// age is null, so 18 is used.
+// Explanation: age is null, so 18 is used.
 
 
 // ❌ Error Program
@@ -145,11 +127,9 @@ let ageError = null;
 
 console.log(ageError.toString());
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// null cannot directly use toString().
+// Error Explanation:  null cannot directly use toString().
 
 
 // ✅ Solution
@@ -158,11 +138,9 @@ let ageCorrect = null;
 
 console.log((ageCorrect ?? 18).toString());
 
-// Output:
-// 18
+// Output: 18
 
-// Solution Explanation:
-// ?? replaces null with 18.
+// Solution Explanation: ?? replaces null with 18.
 
 
 // ==================================================
@@ -173,11 +151,9 @@ let age2;
 
 console.log(age2 ?? 18);
 
-// Output:
-// 18
+// Output: 18
 
-// Explanation:
-// age2 is undefined, so 18 is used.
+// Explanation:  age2 is undefined, so 18 is used.
 
 
 // ❌ Error Program
@@ -186,11 +162,9 @@ let age2Error;
 
 console.log(age2Error + 5);
 
-// Output:
-// NaN
+// Output: NaN
 
-// Error Explanation:
-// undefined used in a calculation gives NaN.
+// Error Explanation: undefined used in a calculation gives NaN.
 
 
 // ✅ Solution
@@ -199,11 +173,9 @@ let age2Correct;
 
 console.log((age2Correct ?? 18) + 5);
 
-// Output:
-// 23
+// Output: 23
 
-// Solution Explanation:
-// ?? gives age2 a default value of 18.
+// Solution Explanation: ?? gives age2 a default value of 18.
 
 
 // ==================================================
@@ -214,11 +186,9 @@ let score = 0;
 
 console.log(score ?? 50);
 
-// Output:
-// 0
+// Output: 0
 
-// Explanation:
-// 0 is not null or undefined, so ?? keeps 0.
+// Explanation: 0 is not null or undefined, so ?? keeps 0.
 
 
 // ❌ Error Program
@@ -227,11 +197,9 @@ let scoreError = 0;
 
 console.log(scoreError || 50);
 
-// Output:
-// 50
+// Output: 50
 
-// Error Explanation:
-// || treats 0 as false and uses 50.
+// Error Explanation: || treats 0 as false and uses 50.
 
 
 // ✅ Solution
@@ -240,11 +208,9 @@ let scoreCorrect = 0;
 
 console.log(scoreCorrect ?? 50);
 
-// Output:
-// 0
+// Output: 0
 
-// Solution Explanation:
-// ?? correctly keeps 0.
+// Solution Explanation: ?? correctly keeps 0.
 
 
 // ==================================================
@@ -269,11 +235,9 @@ let name4Error = "";
 
 console.log(name4Error || "Guest");
 
-// Output:
-// Guest
+// Output: Guest
 
-// Error Explanation:
-// || treats an empty string as false.
+// Error Explanation:  || treats an empty string as false.
 
 
 // ✅ Solution
@@ -285,8 +249,7 @@ console.log(name4Correct ?? "Guest");
 // Output:
 //
 
-// Solution Explanation:
-// ?? keeps the empty string.
+// Solution Explanation: ?? keeps the empty string.
 
 
 // ==================================================
@@ -297,11 +260,9 @@ let isStudent = false;
 
 console.log(isStudent ?? true);
 
-// Output:
-// false
+// Output: false
 
-// Explanation:
-// false is not null or undefined, so it is kept.
+// Explanation: false is not null or undefined, so it is kept.
 
 
 // ❌ Error Program
@@ -310,11 +271,9 @@ let isStudentError = false;
 
 console.log(isStudentError || true);
 
-// Output:
-// true
+// Output: true
 
-// Error Explanation:
-// || treats false as false and uses true.
+// Error Explanation: || treats false as false and uses true.
 
 
 // ✅ Solution
@@ -323,11 +282,9 @@ let isStudentCorrect = false;
 
 console.log(isStudentCorrect ?? true);
 
-// Output:
-// false
+// Output: false
 
-// Solution Explanation:
-// ?? keeps false.
+// Solution Explanation: ?? keeps false.
 
 
 // ==================================================
@@ -339,11 +296,9 @@ let userName = undefined;
 
 console.log(firstName ?? userName ?? "Guest");
 
-// Output:
-// Guest
+// Output:  Guest
 
-// Explanation:
-// Both values are missing, so "Guest" is used.
+// Explanation: Both values are missing, so "Guest" is used.
 
 
 // ❌ Error Program
@@ -353,25 +308,21 @@ let userNameError = undefined;
 
 console.log(firstNameError.toUpperCase());
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// firstNameError is null.
+// Error Explanation: firstNameError is null.
 
 
 // ✅ Solution
 
 let firstNameCorrect = null;
-let userNameCorrect = "Riya";
+let userNameCorrect = "Sahithya";
 
 console.log(firstNameCorrect ?? userNameCorrect ?? "Guest");
 
-// Output:
-// Riya
+// Output: Sahithya
 
-// Solution Explanation:
-// ?? uses the first value that is not null or undefined.
+// Solution Explanation: ?? uses the first value that is not null or undefined.
 
 
 // ==================================================
@@ -384,11 +335,9 @@ student = student ?? { name: "Guest" };
 
 console.log(student.name);
 
-// Output:
-// Guest
+// Output:  Guest
 
-// Explanation:
-// Since student is null, the default object is used.
+// Explanation:  Since student is null, the default object is used.
 
 
 // ❌ Error Program
@@ -397,11 +346,9 @@ let studentError = null;
 
 console.log(studentError.name);
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// We tried to access a property from null.
+// Error Explanation: We tried to access a property from null.
 
 
 // ✅ Solution
@@ -412,11 +359,9 @@ studentCorrect2 = studentCorrect2 ?? { name: "Guest" };
 
 console.log(studentCorrect2.name);
 
-// Output:
-// Guest
+// Output: Guest
 
-// Solution Explanation:
-// ?? provides a default object.
+// Solution Explanation: ?? provides a default object.
 
 
 // ==================================================
@@ -429,11 +374,9 @@ numbers = numbers ?? [10, 20, 30];
 
 console.log(numbers);
 
-// Output:
-// [10, 20, 30]
+// Output: [10, 20, 30]
 
-// Explanation:
-// The default array is used because numbers is null.
+// Explanation: The default array is used because numbers is null.
 
 
 // ❌ Error Program
@@ -442,11 +385,9 @@ let numbersError = null;
 
 console.log(numbersError.length);
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// null does not have a length property.
+// Error Explanation: null does not have a length property.
 
 
 // ✅ Solution
@@ -457,11 +398,9 @@ numbersCorrect = numbersCorrect ?? [10, 20, 30];
 
 console.log(numbersCorrect.length);
 
-// Output:
-// 3
+// Output: 3
 
-// Solution Explanation:
-// ?? gives us a default array.
+// Solution Explanation:  ?? gives us a default array.
 
 
 // ==================================================
@@ -474,11 +413,9 @@ function getName() {
 
 console.log(getName() ?? "Guest");
 
-// Output:
-// Guest
+// Output: Guest
 
-// Explanation:
-// The function returns null, so "Guest" is used.
+// Explanation: The function returns null, so "Guest" is used.
 
 
 // ❌ Error Program
@@ -489,11 +426,9 @@ function getNameError() {
 
 console.log(getNameError().toUpperCase());
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// The function returns undefined.
+// Error Explanation: The function returns undefined.
 
 
 // ✅ Solution
@@ -504,11 +439,9 @@ function getNameCorrect() {
 
 console.log((getNameCorrect() ?? "Guest").toUpperCase());
 
-// Output:
-// GUEST
+// Output: GUEST
 
-// Solution Explanation:
-// ?? provides "Guest" when the function returns undefined.
+// Solution Explanation:  ?? provides "Guest" when the function returns undefined.
 
 
 // ==================================================
@@ -519,11 +452,9 @@ const student2 = {};
 
 console.log(student2?.name ?? "Guest");
 
-// Output:
-// Guest
+// Output: Guest
 
-// Explanation:
-// ?. safely checks name.
+// Explanation:  ?. safely checks name.
 // ?? gives "Guest" because name is undefined.
 
 
@@ -533,11 +464,9 @@ const student2Error = {};
 
 console.log(student2Error.name.toUpperCase());
 
-// Error:
-// TypeError
+// Error: TypeError
 
-// Error Explanation:
-// name is undefined.
+// Error Explanation: name is undefined.
 
 
 // ✅ Solution
@@ -546,11 +475,9 @@ const student2Correct = {};
 
 console.log((student2Correct?.name ?? "Guest").toUpperCase());
 
-// Output:
-// GUEST
+// Output: GUEST
 
-// Solution Explanation:
-// ?. safely accesses name and ?? provides a default value.
+// Solution Explanation: ?. safely accesses name and ?? provides a default value.
 
 
 // ==================================================
@@ -566,8 +493,7 @@ console.log(marks || 50);
 // 0
 // 50
 
-// Explanation:
-// ?? keeps 0.
+// Explanation:   ?? keeps 0.
 // || replaces 0 because it treats 0 as false.
 
 
@@ -579,11 +505,9 @@ let result = marksError || 50;
 
 console.log(result);
 
-// Output:
-// 50
+// Output: 50
 
-// Error Explanation:
-// || changes the valid value 0 to 50.
+// Error Explanation: || changes the valid value 0 to 50.
 
 
 // ✅ Solution
@@ -594,11 +518,9 @@ let resultCorrect = marksCorrect ?? 50;
 
 console.log(resultCorrect);
 
-// Output:
-// 0
+// Output: 0
 
-// Solution Explanation:
-// ?? keeps 0 because 0 is not null or undefined.
+// Solution Explanation:  ?? keeps 0 because 0 is not null or undefined.
 
 
 // ==================================================
@@ -611,11 +533,9 @@ let result2 = marks2 ?? 35;
 
 console.log(result2);
 
-// Output:
-// 0
+// Output: 0
 
-// Explanation:
-// 0 is a valid value, so ?? keeps it.
+// Explanation: 0 is a valid value, so ?? keeps it.
 
 
 // ❌ Error Program
@@ -626,11 +546,9 @@ let result2Error = marks2Error;
 
 console.log(result2Error);
 
-// Output:
-// null
+// Output:  null
 
-// Error Explanation:
-// No default value was provided.
+// Error Explanation: No default value was provided.
 
 
 // ✅ Solution
@@ -641,8 +559,6 @@ let result2Correct = marks2Correct ?? 35;
 
 console.log(result2Correct);
 
-// Output:
-// 35
+// Output: 35
 
-// Solution Explanation:
-// ?? gives 35 because the original value is null.
+// Solution Explanation:  ?? gives 35 because the original value is null.
