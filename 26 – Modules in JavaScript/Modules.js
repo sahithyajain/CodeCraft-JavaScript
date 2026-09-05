@@ -789,11 +789,9 @@ console.log(message);
 // message.js
 export const message = "Hello";
 
-// Output:
-// Hello
+// Output:  Hello
 
-// Explanation:
-// type="module" tells the browser that app.js is a module.
+// Explanation:   type="module" tells the browser that app.js is a module.
 
 
 // ❌ Error Program
@@ -805,11 +803,9 @@ export const message = "Hello";
 // app.js
 import { message } from "./message.js";
 
-// Error:
-// SyntaxError: Cannot use import statement outside a module
+// Error:   SyntaxError: Cannot use import statement outside a module
 
-// Error Explanation:
-// The script was not loaded as a module.
+// Error Explanation:   The script was not loaded as a module.
 
 
 // ✅ Solution
@@ -824,8 +820,6 @@ import { message } from "./message.js";
 // message.js
 export const message = "Hello";
 
-// Output:
-// Hello
+// Output:  Hello
 
-// Solution Explanation:
-// type="module" allows import and export to work.
+// Solution Explanation:  type="module" allows import and export to work.
