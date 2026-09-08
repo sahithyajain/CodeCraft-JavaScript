@@ -250,7 +250,7 @@ CodeCraft-JavaScript/
 | Default Parameters     | ✅      |
 | Optional Chaining      | ✅      |
 | Nullish Coalescing     | ✅      |
-| Modules                | ⏳      |
+| Modules                | ✅      |
 | JSON                   | ⏳      |
 | BOM                    | ⏳      |
 | DOM                    | ⏳      |
