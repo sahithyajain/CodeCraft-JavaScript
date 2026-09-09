@@ -9,17 +9,17 @@ JSON is commonly used when working with **APIs, servers, websites, and databases
 ### Example:
 
     {
-        "name": "Riya",
-        "age": 20,
+        "name": "Sahithya",
+        "age": 24,
         "city": "Bengaluru"
     }
 
 Here:
 
 - `"name"` → key
-- `"Riya"` → value
+- `"Sahithya"` → value
 - `"age"` → key
-- `20` → value
+- `24` → value
 
 ---
 
@@ -41,8 +41,8 @@ A website may request student information from a server.
 The server can send:
 
     {
-        "name": "Riya",
-        "age": 20
+        "name": "Sahithya",
+        "age": 24
     }
 
 JavaScript can then read and use this data.
@@ -58,8 +58,8 @@ JavaScript can then read and use this data.
 ### Example:
 
     const user = {
-        "name": "Riya",
-        "age": 20,
+        "name": "Sahithya",
+        "age": 40,
         "city": "Bengaluru"
     };
 
@@ -67,7 +67,7 @@ JavaScript can then read and use this data.
 
 ### Output:
 
-    Riya
+    Sahithya
 
 ### Explanation:
 
@@ -75,9 +75,9 @@ The data is stored using keys and values.
 
 Here:
 
-    "name": "Riya"
+    "name": "Sahithya"
 
-`name` is the key and `Riya` is its value.
+`name` is the key and `Sahithya` is its value.
 
 We can access the value using:
 
@@ -90,16 +90,16 @@ We can access the value using:
 JSON can store different types of values:
 
     {
-        "name": "Riya",
-        "age": 20,
+        "name": "Sahithya",
+        "age": 24,
         "isStudent": true,
         "marks": null
     }
 
 Here:
 
-- `"Riya"` → String
-- `20` → Number
+- `"Sahithya"` → String
+- `24` → Number
 - `true` → Boolean
 - `null` → Null
 
@@ -108,7 +108,7 @@ JSON can also contain arrays and objects.
 ### Example:
 
     {
-        "name": "Riya",
+        "name": "Sahithya",
         "subjects": ["Maths", "Science", "English"]
     }
 
@@ -129,8 +129,8 @@ JSON has some simple rules:
 ### Example:
 
     {
-        "name": "Riya",
-        "age": 20
+        "name": "Sahithya",
+        "age": 24
     }
 
 ---
@@ -138,7 +138,7 @@ JSON has some simple rules:
 ### ❌ Common Error
 
     const data = {
-        'name': 'Riya'
+        'name': 'Sahithya'
     };
 
     console.log(data);
@@ -152,14 +152,14 @@ This is a valid **JavaScript object**, but standard JSON requires **double quote
 ### ✅ Correct JSON
 
     const data = {
-        "name": "Riya"
+        "name": "Sahithya"
     };
 
     console.log(data);
 
 ### Output:
 
-    { name: "Riya" }
+    { name: "Sahithya" }
 
 ### Explanation:
 
@@ -179,7 +179,7 @@ JavaScript needs to convert that text into an object before easily working with 
 
 ### Example:
 
-    const data = '{"name":"Riya","age":20}';
+    const data = '{"name":"Sahithya","age":24}';
 
     const user = JSON.parse(data);
 
@@ -188,14 +188,14 @@ JavaScript needs to convert that text into an object before easily working with 
 
 ### Output:
 
-    Riya
-    20
+    Sahithya
+    24
 
 ### Explanation:
 
 Before parsing, `data` is JSON text.
 
-    '{"name":"Riya","age":20}'
+    '{"name":"Sahithya","age":24}'
 
 After using `JSON.parse()`:
 
@@ -214,13 +214,13 @@ We can then access its values:
 
 JSON text:
 
-    '{"name":"Riya","age":20}'
+    '{"name":"Sahithya","age":24}'
 
 JavaScript object:
 
     {
-        name: "Riya",
-        age: 20
+        name: "Sahithya",
+        age: 24
     }
 
 `JSON.parse()` converts:
@@ -231,7 +231,7 @@ JavaScript object:
 
 ### ❌ Error
 
-    const data = '{"name":"Riya","age":20';
+    const data = '{"name":"Sahithya","age":24';
 
     const user = JSON.parse(data);
 
@@ -247,7 +247,7 @@ The JSON is incomplete because the closing `}` is missing.
 
 ### ✅ Solution
 
-    const data = '{"name":"Riya","age":20}';
+    const data = '{"name":"Sahithya","age":24}';
 
     const user = JSON.parse(data);
 
@@ -255,7 +255,7 @@ The JSON is incomplete because the closing `}` is missing.
 
 ### Output:
 
-    Riya
+    Sahithya
 
 ### Explanation:
 
@@ -274,8 +274,8 @@ When we want to **send JavaScript data to a server**, we often convert the objec
 ### Example:
 
     const user = {
-        name: "Riya",
-        age: 20
+        name: "Sahithya",
+        age: 24
     };
 
     const data = JSON.stringify(user);
@@ -284,20 +284,20 @@ When we want to **send JavaScript data to a server**, we often convert the objec
 
 ### Output:
 
-    {"name":"Riya","age":20}
+    {"name":"Sahithya","age":24}
 
 ### Explanation:
 
 Before `JSON.stringify()`:
 
     {
-        name: "Riya",
-        age: 20
+        name: "Sahithya",
+        age: 24
     }
 
 After `JSON.stringify()`:
 
-    '{"name":"Riya","age":20}'
+    '{"name":"Sahithya","age":24}'
 
 So:
 
@@ -328,8 +328,8 @@ The JavaScript array is converted into JSON text.
 ### ❌ Error
 
     const user = {
-        name: "Riya",
-        age: 20
+        name: "Sahithya",
+        age: 24
     };
 
     console.log(user.toJSON());
@@ -347,8 +347,8 @@ The JavaScript array is converted into JSON text.
 ### ✅ Solution
 
     const user = {
-        name: "Riya",
-        age: 20
+        name: "Sahithya",
+        age: 24
     };
 
     const data = JSON.stringify(user);
@@ -357,7 +357,7 @@ The JavaScript array is converted into JSON text.
 
 ### Output:
 
-    {"name":"Riya","age":20}
+    {"name":"Sahithya","age":24}
 
 ### Explanation:
 
@@ -377,7 +377,7 @@ These two methods work in **opposite directions**.
 
 Example:
 
-    const data = '{"name":"Riya"}';
+    const data = '{"name":"Sahithya"}';
 
     const user = JSON.parse(data);
 
@@ -392,7 +392,7 @@ Example:
 Example:
 
     const user = {
-        name: "Riya"
+        name: "Sahithya"
     };
 
     const data = JSON.stringify(user);
@@ -408,8 +408,8 @@ JSON is very commonly used when working with APIs.
 A server may send:
 
     {
-        "name": "Riya",
-        "age": 20
+        "name": "Sahithya",
+        "age": 24
     }
 
 JavaScript can receive the JSON data and convert it into an object using:
