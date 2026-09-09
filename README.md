@@ -258,10 +258,10 @@ CodeCraft-JavaScript/
 | Forms                  | ⏳      |
 | Local Storage          | ⏳      |
 | Session Storage        | ⏳      |
-| Promises               | ⏳      |
-| Async / Await          | ⏳      |
-| Fetch API              | ⏳      |
-| Error Handling         | ⏳      |
+| Promises               | ✅      |
+| Async / Await          | ✅      |
+| Fetch API              | ✅      |
+| Error Handling         | ✅      |
 | OOP                    | ⏳      |
 | Prototypes             | ⏳      |
 | Classes                | ⏳      |
