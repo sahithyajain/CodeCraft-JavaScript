@@ -11,11 +11,9 @@ async function greet() {
 
 greet().then(result => console.log(result));
 
-// Output:
-// Hello
+// Output:  Hello
 
-// Explanation:
-// An async function returns a Promise.
+// Explanation: An async function returns a Promise.
 
 
 // ❌ Error Program
@@ -26,11 +24,9 @@ async function greetError() {
 
 greetError();
 
-// Error:
-// ReferenceError: message is not defined
+// Error: ReferenceError: message is not defined
 
-// Error Explanation:
-// message was not created.
+// Error Explanation: message was not created.
 
 
 // ✅ Solution
@@ -41,11 +37,9 @@ async function greetCorrect() {
 
 greetCorrect().then(result => console.log(result));
 
-// Output:
-// Hello
+// Output: Hello
 
-// Solution Explanation:
-// The function returns a valid value.
+// Solution Explanation:  The function returns a valid value.
 
 
 // ==================================================
@@ -58,11 +52,9 @@ async function showMessage() {
 
 showMessage().then(result => console.log(result));
 
-// Output:
-// Welcome
+// Output:   Welcome
 
-// Explanation:
-// async makes the function return a Promise.
+// Explanation:  async makes the function return a Promise.
 
 
 // ❌ Error Program
