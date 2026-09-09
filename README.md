@@ -251,7 +251,7 @@ CodeCraft-JavaScript/
 | Optional Chaining      | ✅      |
 | Nullish Coalescing     | ✅      |
 | Modules                | ✅      |
-| JSON                   | ⏳      |
+| JSON                   | ✅      |
 | BOM                    | ⏳      |
 | DOM                    | ⏳      |
 | Events                 | ⏳      |
