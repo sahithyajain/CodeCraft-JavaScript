@@ -7,26 +7,18 @@
 fetch("https://example.com")
     .then(response => console.log(response));
 
-/*
-Output:
-Response object
+/* Output: Response object
 
-Explanation:
-fetch() sends a request to the given URL.
-*/
+Explanation: fetch() sends a request to the given URL. */
 
 
 // ❌ Error
 fetch("wrong-url")
     .then(response => console.log(response));
 
-/*
-Error:
-TypeError: Failed to fetch
+/* Error: TypeError: Failed to fetch
 
-Explanation:
-The URL is not valid.
-*/
+Explanation: The URL is not valid. */
 
 
 // ✅ Solution
