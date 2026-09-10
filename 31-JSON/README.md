@@ -1,5 +1,5 @@
 # 📘 JSON in JavaScript
-
+ 
 ## 🌟 What is JSON?
 
 **JSON (JavaScript Object Notation) is a simple format used to store and exchange data between applications.**
