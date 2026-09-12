@@ -252,12 +252,12 @@ CodeCraft-JavaScript/
 | Nullish Coalescing     | ✅      |
 | Modules                | ✅      |
 | JSON                   | ✅      |
-| BOM                    | ⏳      |
-| DOM                    | ⏳      |
-| Events                 | ⏳      |
-| Forms                  | ⏳      |
-| Local Storage          | ⏳      |
-| Session Storage        | ⏳      |
+| BOM                    | ✅      |
+| DOM                    | ✅      |
+| Events                 | ✅      |
+| Forms                  | ✅      |
+| Local Storage          | ✅      |
+| Session Storage        | ✅      |
 | Promises               | ✅      |
 | Async / Await          | ✅      |
 | Fetch API              | ✅      |
