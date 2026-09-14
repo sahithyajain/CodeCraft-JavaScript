@@ -225,43 +225,43 @@ CodeCraft-JavaScript/
 
 | Topic                  | Status |
 | ---------------------- | ------ |
-| Introduction           | ✅      |
-| Variables              | ✅      |
-| Data Types             | ✅      |
-| Operators              | ✅      |
-| Type Conversion        | ✅      |
-| Functions              | ✅      |
-| Conditional Statements | ✅      |
-| Loops                  | ✅      |
-| Arrays                 | ✅      |
-| Strings                | ✅      |
-| Objects                | ✅      |
-| Scope                  | ✅      |
-| Hoisting               | ✅      |
-| `this` Keyword         | ✅      |
-| Callbacks              | ✅      |
-| Higher-Order Functions | ✅      |
-| Closures               | ✅      |
-| Arrow Functions        | ✅      |
-| Template Literals      | ✅      |
-| Destructuring          | ✅      |
-| Spread Operator        | ✅      |
-| Rest Operator          | ✅      |
-| Default Parameters     | ✅      |
-| Optional Chaining      | ✅      |
-| Nullish Coalescing     | ✅      |
-| Modules                | ✅      |
-| JSON                   | ✅      |
-| BOM                    | ✅      |
-| DOM                    | ✅      |
-| Events                 | ✅      |
-| Forms                  | ✅      |
-| Local Storage          | ✅      |
-| Session Storage        | ✅      |
-| Promises               | ✅      |
-| Async / Await          | ✅      |
-| Fetch API              | ✅      |
-| Error Handling         | ✅      |
+| Introduction           | ✅     |
+| Variables              | ✅     |
+| Data Types             | ✅     |
+| Operators              | ✅     |
+| Type Conversion        | ✅     |
+| Functions              | ✅     |
+| Conditional Statements | ✅     |
+| Loops                  | ✅     |
+| Arrays                 | ✅     |
+| Strings                | ✅     |
+| Objects                | ✅     |
+| Scope                  | ✅     |
+| Hoisting               | ✅     |
+| `this` Keyword         | ✅     |
+| Callbacks              | ✅     |
+| Higher-Order Functions | ✅     |
+| Closures               | ✅     |
+| Arrow Functions        | ✅     |
+| Template Literals      | ✅     |
+| Destructuring          | ✅     |
+| Spread Operator        | ✅     |
+| Rest Operator          | ✅     |
+| Default Parameters     | ✅     |
+| Optional Chaining      | ✅     |
+| Nullish Coalescing     | ✅     |
+| Modules                | ✅     |
+| JSON                   | ✅     |
+| BOM                    | ✅     |
+| DOM                    | ✅     |
+| Events                 | ✅     |
+| Forms                  | ✅     |
+| Local Storage          | ✅     |
+| Session Storage        | ✅     |
+| Promises               | ✅     |
+| Async / Await          | ✅     |
+| Fetch API              | ✅     |
+| Error Handling         | ✅     |
 | OOP                    | ⏳      |
 | Prototypes             | ⏳      |
 | Classes                | ⏳      |
