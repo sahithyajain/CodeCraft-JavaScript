@@ -263,13 +263,13 @@ CodeCraft-JavaScript/
 | Async / Await          | ✅     |
 | Fetch API              | ✅     |
 | Error Handling         | ✅     |
-| OOP                    | ⏳      |
-| Prototypes             | ⏳      |
-| Classes                | ⏳      |
-| Inheritance            | ⏳      |
-| Encapsulation          | ⏳      |
-| Polymorphism           | ⏳      |
-
+| OOP                    | ⏳     |
+| Prototypes             | ⏳     |
+| Classes                | ⏳     |
+| Inheritance            | ⏳     |
+| Encapsulation          | ⏳     |
+| Polymorphism           | ⏳     |
+| Mini Projects          |        |
 
 ---
 
