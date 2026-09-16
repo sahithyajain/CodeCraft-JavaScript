@@ -5,7 +5,7 @@
 **Polymorphism** means **"many forms."**
 
 It means the same method or function can behave differently depending on the object or value.
-
+ 
 ### Example
 
     class Dog {
