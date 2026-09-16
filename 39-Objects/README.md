@@ -3,6 +3,7 @@
 ## 🌟 What is an Object?
 
 An **object** is used to store related information together.
+An object is an actual thing containing data.
 
 For example, a student has a **name, age, and course**.
 
