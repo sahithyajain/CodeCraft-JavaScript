@@ -1,6 +1,6 @@
 # 📘 Inheritance in JavaScript
 
-## 🌟 What is Inheritance?
+## 🌟 What is Inheritance? 
 
 **Inheritance** allows one class to use the properties and methods of another class.
 
