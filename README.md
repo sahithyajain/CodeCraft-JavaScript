@@ -270,7 +270,7 @@ CodeCraft-JavaScript/
 | Encapsulation          | ✅     |
 | Polymorphism           | ✅     |
 | Mini Projects          | ✅     |
-
+|                        |        |
 ---
 
 # 📅 Learning Strategy
