@@ -214,19 +214,6 @@ CodeCraft-JavaScript/
 
 ---
 
-# 📈 Progress
-
-<!-- | Topic | Status |
-|--------|--------|
-| Introduction | ✅ |
-| Variables | ✅ |
-| Data Types | ✅ |
-| Operators | ✅ |
-| Loops | ⏳ |
-| Functions | ⏳ |
-| Arrays | ⏳ |
-| Objects | ⏳ |
-| DOM | ⏳ |-->
 
 # 📈 Progress
 
