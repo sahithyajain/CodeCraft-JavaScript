@@ -40,9 +40,9 @@ The basic concepts that form the foundation for learning JavaScript.
 - [x] Data Types
 - [x] Operators
 - [x] Type Conversion
+- [x] Functions
 - [x] Conditional Statements
 - [x] Loops
-- [x] Functions
 - [x] Arrays
 - [x] Strings
 - [x] Objects
@@ -52,54 +52,54 @@ The basic concepts that form the foundation for learning JavaScript.
 ## 📦 Core JavaScript Concepts
 Important concepts that help you understand how JavaScript works.
 
-- [ ] Scope 
-- [ ] Hoisting
-- [ ] 'this' Keyword
-- [ ] Callbacks
-- [ ] Higher Order Functions
-- [ ] Closures
-
+- [x] Scope
+- [x] Hoisting
+- [x] `this` Keyword
+- [x] Callbacks
+- [x] Higher Order Functions
+- [x] Closures
 
 ## ⚡ Modern JavaScript (ES6+)
 Modern JavaScript features that make code shorter, cleaner, and easier to manage.
 
-- [ ] Arrow Functions
-- [ ] Template Literals
-- [ ] Destructuring
-- [ ] Spread Operator
-- [ ] Rest Operator
-- [ ] Default Parameters
-- [ ] Optional Chaining
-- [ ] Nullish Coalescing
-- [ ] Modules
+- [x] Arrow Functions
+- [x] Template Literals
+- [x] Destructuring
+- [x] Spread Operator
+- [x] Rest Operator
+- [x] Default Parameters
+- [x] Optional Chaining
+- [x] Nullish Coalescing
+- [x] Modules
 
 
 
 ## 🌐 Asynchronous JavaScript
 Concepts used to handle tasks that take time, such as API requests and other asynchronous operations.
 
-- [ ] Promises
-- [ ] Async / Await
-- [ ] Fetch API
-- [ ] Error Handling
+- [x] Promises
+- [x] Async / Await
+- [x] Fetch API
+- [x] Error Handling
 
 ---
 ## 📄 JSON
 
 JSON is a common format used to store and exchange data between applications.
 
-- [ ] JSON Basics
-- [ ] `JSON.parse()`
-- [ ] `JSON.stringify()`
+- [x] JSON Basics
+- [x] `JSON.parse()`
+- [x] `JSON.stringify()`
 
 ## 🖥️ Browser JavaScript
 Concepts used to interact with the browser and web pages.
 
-- [ ] DOM
-- [ ] Events
-- [ ] Forms
-- [ ] Local Storage
-- [ ] Session Storage
+- [x] DOM
+- [x] Events
+- [x] Forms
+- [x] Local Storage
+- [x] Session Storage
+- [x] Web APIs
 
 ---
 
@@ -107,15 +107,19 @@ Concepts used to interact with the browser and web pages.
 
 Concepts used to organize JavaScript programs using objects, classes, and reusable structures.
 
-- [ ] OOP Basics
-- [ ] Objects
-- [ ] `this` Keyword
-- [ ] Prototypes
-- [ ] Classes
-- [ ] Constructors
-- [ ] Inheritance
-- [ ] Encapsulation
-- [ ] Polymorphism
+- [x] OOP Basics
+- [x] Objects
+- [x] Classes
+- [x] Constructors
+- [x] Methods
+- [x] Prototypes
+- [x] Inheritance
+- [x] Encapsulation
+- [x] Polymorphism
+- [x] Abstraction
+- [x] Getters & Setters
+- [x] Static Methods
+
 
 
 ## 🎯 Interview Preparation
