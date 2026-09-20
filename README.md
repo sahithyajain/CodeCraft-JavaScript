@@ -232,7 +232,6 @@ CodeCraft-JavaScript/
 
 | Topic                  | Status |
 | ---------------------- | ------ |
-| ---------------------- | ------ |
 | Introduction           | ✅     |
 | Variables              | ✅     |
 | Data Types             | ✅     |
