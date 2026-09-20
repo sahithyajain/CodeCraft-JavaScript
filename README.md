@@ -35,6 +35,7 @@ Each topic in this repository includes:
 ## 🌱 JavaScript Fundamentals
 The basic concepts that form the foundation for learning JavaScript.
 
+- [x] Introduction
 - [ ] Introduction
 - [ ] Variables
 - [ ] Data Types
