@@ -36,17 +36,16 @@ Each topic in this repository includes:
 The basic concepts that form the foundation for learning JavaScript.
 
 - [x] Introduction
-- [ ] Introduction
-- [ ] Variables
-- [ ] Data Types
-- [ ] Operators
-- [ ] Type Conversion
-- [ ] Conditional Statements
-- [ ] Loops
-- [ ] Functions
-- [ ] Arrays
-- [ ] Strings
-- [ ] Objects
+- [x] Variables
+- [x] Data Types
+- [x] Operators
+- [x] Type Conversion
+- [x] Conditional Statements
+- [x] Loops
+- [x] Functions
+- [x] Arrays
+- [x] Strings
+- [x] Objects
 
 
 
