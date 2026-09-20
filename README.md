@@ -232,6 +232,7 @@ CodeCraft-JavaScript/
 
 | Topic                  | Status |
 | ---------------------- | ------ |
+| ---------------------- | ------ |
 | Introduction           | ✅     |
 | Variables              | ✅     |
 | Data Types             | ✅     |
@@ -258,6 +259,10 @@ CodeCraft-JavaScript/
 | Optional Chaining      | ✅     |
 | Nullish Coalescing     | ✅     |
 | Modules                | ✅     |
+| Promises               | ✅     |
+| Async / Await          | ✅     |
+| Fetch API              | ✅     |
+| Error Handling         | ✅     |
 | JSON                   | ✅     |
 | BOM                    | ✅     |
 | DOM                    | ✅     |
@@ -265,17 +270,22 @@ CodeCraft-JavaScript/
 | Forms                  | ✅     |
 | Local Storage          | ✅     |
 | Session Storage        | ✅     |
-| Promises               | ✅     |
-| Async / Await          | ✅     |
-| Fetch API              | ✅     |
-| Error Handling         | ✅     |
-| OOP                    | ✅     |
-| Prototypes             | ✅     |
+| Web APIs               | ✅     |
+| OOP Basics             | ✅     |
+| Objects                | ✅     |
 | Classes                | ✅     |
+| Constructors           | ✅     |
+| Methods                | ⏳     |
+| Prototypes             | ✅     |
 | Inheritance            | ✅     |
 | Encapsulation          | ✅     |
 | Polymorphism           | ✅     |
-| Mini Projects          | ✅     |
+| Abstraction            | ✅     |
+| Getters & Setters      | ✅     |
+| Static Methods         | ✅     |
+| Coding Problems        | ⏳     |
+| JavaScript Interview Questions | ⏳ |
+| Mini Projects          | ⏳     |
 |                        |        |
 ---
 
