@@ -124,7 +124,7 @@ Concepts used to organize JavaScript programs using objects, classes, and reusab
 
 ## 🎯 Interview Preparation
 
-- [ ] Coding Problems
+- [x] Coding Problems
 - [ ] JavaScript Interview Questions
 - [ ] Mini Projects
 
