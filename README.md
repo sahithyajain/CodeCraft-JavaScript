@@ -273,7 +273,7 @@ CodeCraft-JavaScript/
 | Abstraction            | ✅     |
 | Getters & Setters      | ✅     |
 | Static Methods         | ✅     |
-| Coding Problems        | ⏳     |
+| Coding Problems        | ✅     |
 | JavaScript Interview Questions | ⏳ |
 | Mini Projects          | ⏳     |
 |                        |        |
