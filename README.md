@@ -275,8 +275,8 @@ CodeCraft-JavaScript/
 | Getters & Setters      | ✅     |
 | Static Methods         | ✅     |
 | Coding Problems        | ✅     |
-| JavaScript Interview Questions | ⏳ |
-| Mini Projects          | ⏳     |
+| JavaScript Interview Questions | ✅ |
+| Mini Projects          |  ✅  |
 |                        |        |
 ---
 
