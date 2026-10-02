@@ -277,7 +277,7 @@ CodeCraft-JavaScript/
 | Coding Problems        | ✅     |
 | JavaScript Interview Questions | ✅ |
 | Mini Projects          |  ✅  |
-|                        |        |
+|                        |      |
 ---
 
 # 📅 Learning Strategy
