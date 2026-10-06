@@ -126,8 +126,8 @@ Concepts used to organize JavaScript programs using objects, classes, and reusab
 
 - [x] Coding Problems
 - [x] JavaScript Interview Questions
-- [ ] Mini Projects
-- [ ] DSA
+- [x] Mini Projects
+- [x] DSA
 
 ---
 
