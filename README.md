@@ -4,7 +4,7 @@
 
 Welcome to **CodeCraft-JavaScript**!
 
-This repository is my personal JavaScript learning handbook. It documents my journey from JavaScript fundamentals to advanced concepts through concise notes, practical examples, coding challenges, and mini projects.
+This repository is my personal JavaScript learning handbook. It documents my journey from JavaScript fundamentals to advanced concepts through concise notes, practical examples, coding challenges, and mini projects.                    
 
 
 The main purpose of this repository is to:
